@@ -22,8 +22,7 @@ function initNav() {
   if (!nav) return;
 
   const updateNav = () => {
-    const isSubpage = !document.querySelector('.hero');
-    nav.classList.toggle('scrolled', isSubpage || window.scrollY > 40);
+    nav.classList.toggle('scrolled', window.scrollY > 40);
   };
   window.addEventListener('scroll', updateNav, { passive: true });
   updateNav();

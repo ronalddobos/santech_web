@@ -147,23 +147,22 @@ em { font-style: italic; color: var(--gold-dark); }
   align-items: center;
   justify-content: space-between;
   padding-inline: clamp(1.5rem, 5vw, 4rem);
-  transition: background 0.4s ease, box-shadow 0.4s ease;
+  background: var(--cream);
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
+  transition: box-shadow 0.35s ease;
 }
 .nav.scrolled {
-  background: color-mix(in srgb, var(--cream) 92%, transparent);
-  backdrop-filter: blur(20px);
-  box-shadow: 0 1px 0 color-mix(in srgb, var(--ink) 8%, transparent);
+  box-shadow: 0 4px 24px color-mix(in srgb, var(--ink) 10%, transparent);
 }
 
 .nav__logo {
   font-family: var(--font-serif);
   font-size: 1.5rem;
   font-weight: 500;
-  color: var(--cream);
+  color: var(--ink);
   letter-spacing: 0.08em;
   transition: color var(--trans);
 }
-.nav.scrolled .nav__logo { color: var(--ink); }
 
 .nav__logo-mark {
   display: inline-block;
@@ -187,10 +186,9 @@ em { font-style: italic; color: var(--gold-dark); }
   font-size: 0.85rem;
   font-weight: 500;
   letter-spacing: 0.04em;
-  color: color-mix(in srgb, var(--cream) 85%, transparent);
+  color: var(--ink-soft);
   transition: color var(--trans);
 }
-.nav.scrolled .nav__links a { color: var(--ink-soft); }
 .nav__links a:hover { color: var(--gold) !important; }
 
 .nav__cta {
@@ -238,7 +236,20 @@ em { font-style: italic; color: var(--gold-dark); }
 .nav__dropdown-menu a:hover { background: var(--cream); color: var(--gold-dark) !important; }
 .nav__dropdown-menu a.active { color: var(--gold) !important; font-weight: 600; }
 
-.nav__link--active { color: var(--gold) !important; }
+.nav__link--active {
+  color: var(--gold-dark) !important;
+  position: relative;
+}
+.nav__link--active::after {
+  content: '';
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  right: 0;
+  height: 2px;
+  background: var(--gold);
+  border-radius: 1px;
+}
 
 .nav__hamburger {
   display: none;
@@ -250,11 +261,10 @@ em { font-style: italic; color: var(--gold-dark); }
   display: block;
   width: 24px;
   height: 2px;
-  background: var(--cream);
+  background: var(--ink);
   border-radius: 2px;
   transition: var(--trans);
 }
-.nav.scrolled .nav__hamburger span { background: var(--ink); }
 
 .mobile-menu {
   display: none;
