@@ -1,0 +1,190 @@
+{
+  "product_categories": {
+    "rectangular": {
+      "name": "Obdélníkové vany (Rectangular Bathtubs)",
+      "description": "Classic rectangular bathtubs, the core product line. Timeless design with premium acrylic.",
+      "size_range": "140×70 cm to 190×120 cm",
+      "models": [
+        {"name": "BEVEL", "dimensions": "180×80", "price": 11839},
+        {"name": "ELAN", "price_from": 10135},
+        {"name": "EVO", "price_from": 10135},
+        {"name": "EVO SLIM", "price_from": 10985},
+        {"name": "GEMINI", "dimensions": "170×75", "price": 11275},
+        {"name": "GEMINI SLIM", "dimensions": "170×75", "price": 12125},
+        {"name": "GEMINI XL", "price_from": 10758, "new": true},
+        {"name": "GEMINI XL SLIM", "price_from": 11607, "new": true},
+        {"name": "KUBE", "price_from": 10135},
+        {"name": "KUBE SLIM", "price_from": 10985},
+        {"name": "LINEA XL", "dimensions": "190×90", "price": 14778},
+        {"name": "LINEA XXL", "dimensions": "190×120", "price": 25785},
+        {"name": "MILO", "price_from": 10135},
+        {"name": "MILO SLIM", "price_from": 10985},
+        {"name": "NOVA", "dimensions": "170×80", "price": 11275},
+        {"name": "PLUS", "dimensions": "185×90", "price_from": 14121},
+        {"name": "RIO", "dimensions": "160×75", "price": 10135},
+        {"name": "RIO SLIM", "dimensions": "160×75", "price": 10985, "new": true},
+        {"name": "SMART", "price_from": 9235},
+        {"name": "SOFA", "dimensions": "182×85", "price_from": 19077},
+        {"name": "SPRING", "price_from": 8775},
+        {"name": "SPRING (180)", "dimensions": "180×80", "price": 11839},
+        {"name": "TIME", "dimensions": "181×81.5", "price": 11839},
+        {"name": "TIME SLIM", "dimensions": "181×81.5", "price": 12689},
+        {"name": "VARIA", "price_from": 9849},
+        {"name": "VARIA SLIM", "price_from": 10698}
+      ]
+    },
+    "asymmetrical": {
+      "name": "Asymetrické vany (Asymmetrical Bathtubs)",
+      "description": "Combining bathing and showering. Diagonal interior space, available in left/right variants.",
+      "models": [
+        {"name": "ARIELA", "price_from": 10396},
+        {"name": "EMO", "dimensions": "165×90", "price_from": 12272},
+        {"name": "EVO-S", "dimensions": "170×100", "price_from": 15738},
+        {"name": "FIONA", "price_from": 11677},
+        {"name": "FONTANA", "price_from": 11677},
+        {"name": "FONTANA (170)", "dimensions": "170×95", "price_from": 13344},
+        {"name": "FOX", "price_from": 11677},
+        {"name": "GEMINI", "dimensions": "170×75", "price_from": 11839},
+        {"name": "LAGOON", "price_from": 13221},
+        {"name": "OPTIMA", "dimensions": "169×75", "price_from": 11839},
+        {"name": "VIKY", "dimensions": "150×80", "price_from": 11262}
+      ]
+    },
+    "corner": {
+      "name": "Rohové vany (Corner Bathtubs)",
+      "description": "Family-oriented bathtubs. Oval/polygonal alternatives to traditional corner solutions.",
+      "models": [
+        {"name": "ATOL", "dimensions": "147×147", "price": 15069},
+        {"name": "FJORD", "dimensions": "145×145", "price": 15069},
+        {"name": "OTAVA", "dimensions": "140×140", "price": 14121},
+        {"name": "SOLO", "price_from": 14693},
+        {"name": "VLTAVA", "dimensions": "150×150", "price": 15738}
+      ]
+    },
+    "oval": {
+      "name": "Oválné vany (Oval Bathtubs)",
+      "description": "For spacious bathrooms, multi-person capacity.",
+      "models": [
+        {"name": "BEVEL", "dimensions": "180×78.5", "price": 14121},
+        {"name": "BEVEL (island)", "dimensions": "180×86", "price": 14121},
+        {"name": "DELTA", "dimensions": "185×90", "price": 15069},
+        {"name": "MONTE", "dimensions": "Ø160", "price": 28959}
+      ]
+    },
+    "low_profile_one": {
+      "name": "Nízké vany ONE (Low-Profile ONE Series)",
+      "description": "Shallow 35cm depth bathtubs for everyday living. Safe for seniors, children, and mobility-restricted users. Can be combined with shower enclosure.",
+      "models": [
+        {"name": "ONE 120", "dimensions": "120×72.5", "price": 7662},
+        {"name": "ONE 130", "dimensions": "130×72.5", "price": 8033},
+        {"name": "ONE 140", "dimensions": "140×72.5", "price": 8775},
+        {"name": "ONE 150", "dimensions": "150×72.5", "price": 9235},
+        {"name": "ONE 160", "dimensions": "160×72.5", "price": 9988},
+        {"name": "ONE 170", "dimensions": "170×80", "price": 10156}
+      ]
+    },
+    "sharp_series": {
+      "name": "Série SHARP (SHARP Series)",
+      "description": "Premium line with straight, sharp-edge design. Modern aesthetic.",
+      "models": [
+        {"name": "EVO SHARP", "price_from": 15635},
+        {"name": "GEMINI SHARP", "dimensions": "168×73", "price": 16775},
+        {"name": "GEMINI XL SHARP", "price_from": 16257},
+        {"name": "KUBE SHARP (se štěrbinou)", "price_from": 15635},
+        {"name": "MILO SHARP", "price_from": 15635},
+        {"name": "RIO SHARP", "dimensions": "158×73", "price": 15635},
+        {"name": "TIME SHARP", "dimensions": "179×79.5", "price": 17339},
+        {"name": "VARIA SHARP", "price_from": 15635}
+      ]
+    },
+    "sharp10_series": {
+      "name": "Série SHARP 10 (SHARP 10 Series)",
+      "description": "Enhanced SHARP series with 10mm edge profile.",
+      "models": [
+        {"name": "EVO SHARP 10", "price_from": 17135},
+        {"name": "GEMINI SHARP 10", "dimensions": "168×73", "price": 18275},
+        {"name": "GEMINI XL SHARP 10", "price_from": 17757},
+        {"name": "KUBE SHARP 10 (se štěrbinou)", "price_from": 17135},
+        {"name": "MILO SHARP 10", "price_from": 17135},
+        {"name": "RIO SHARP 10", "dimensions": "158×73", "price": 17135},
+        {"name": "TIME SHARP 10", "dimensions": "179×79.5", "price": 18839},
+        {"name": "VARIA SHARP 10", "price_from": 17135}
+      ]
+    },
+    "new_time_freestanding": {
+      "name": "Solitérní vany NEW TIME (Freestanding NEW TIME)",
+      "description": "Premium freestanding bathtubs. Cast PMMA material, self-supporting frame. Multiple installation options: freestanding, wall-mounted, corner with perpendicular/conical panel, alcove.",
+      "sub_collections": {
+        "TIME BEVEL": {
+          "description": "Cast PMMA with non-porous surface, self-supporting frame",
+          "models": [
+            {"name": "TIME BEVEL - E", "dimensions": "180×86", "price": 47580}
+          ]
+        },
+        "TIME EVO": {
+          "description": "Three sizes, flexible edge width for wall or center placement",
+          "price_range": "33,115 - 42,553 Kč",
+          "variants": ["H", "H (NIKA)", "HL (HP)", "R", "R (NIKA)", "Z", "ZL (ZP)"]
+        },
+        "TIME GEMINI": {
+          "description": "High aesthetic value, various shape options",
+          "dimensions": "169×74",
+          "price_range": "37,918 - 43,676 Kč",
+          "variants": ["D", "L (P)", "H", "R", "Z", "HL (HP)", "ZL (ZP)", "s kónickým panelem"]
+        },
+        "TIME GEMINI XL": {
+          "description": "Larger Gemini variant",
+          "price_range": "37,918 - 43,676 Kč"
+        },
+        "TIME KUBE": {
+          "description": "Modern angular design",
+          "price_range": "33,116 - 42,553 Kč",
+          "variants": ["H", "H (NIKA)", "R", "Z", "HL (HP)", "ZL (ZP)"]
+        },
+        "TIME MILO": {
+          "description": "Multiple shape and installation variants, exceptional craftsmanship",
+          "price_range": "36,795 - 45,275 Kč",
+          "variants": ["D", "L (P)", "H", "R", "Z", "HL (HP)", "ZL (ZP)", "s kónickým panelem"]
+        },
+        "TIME ONE": {
+          "description": "Low-profile freestanding variant",
+          "price_range": "28,800 - 32,000 Kč",
+          "variants": ["HL (HP)", "NIKA"]
+        },
+        "TIME OPTIMA": {
+          "dimensions": "168×74",
+          "price_from": 37918,
+          "variants": ["L (P)"]
+        },
+        "TIME RIO": {
+          "dimensions": "159×74",
+          "price_from": 36795,
+          "variants": ["L (P)", "s kónickým panelem"]
+        },
+        "TIME TOP": {
+          "description": "Sharp outer edges for millimeter-precise wall placement",
+          "dimensions": "180×80",
+          "price_range": "39,042 - 44,800 Kč",
+          "variants": ["D", "L (P)", "H", "R", "Z", "HL (HP)", "ZL (ZP)", "s kónickým panelem"]
+        }
+      }
+    },
+    "massage_body_200": {
+      "name": "Masážní vany BODY 200 (Massage Bathtubs)",
+      "description": "Limited series massage systems. Medical certification for home, wellness, healthcare, and hydrotherapy use.",
+      "price_range": "36,167 - 59,159 Kč",
+      "models_available": "35+ models including Ariela, Atol, Bevel, Delta, Elan, Emo, Evo, Fiona, Fjord, Fontana, Fox, Gemini, Kube, Lagoon, Linea XL/XXL, Lumen, Milo, Monte, Nova, Optima, Otava, Plus, Smart, Sofa, Solo, Spring, Time, Varia, Vega, Viky, Vltava"
+    },
+    "senior_iris": {
+      "name": "Bezbariérové vany IRIS (Accessible IRIS Bathtubs)",
+      "description": "Door-equipped bathtub with patented side entry for barrier-free access. Optional hydromassage system."
+    }
+  },
+  "accessories": [
+    "Bathtub screens (ACTIMA, AURORA, AXEL, COMBY, YOUNG series)",
+    "Bathtub faucets",
+    "Chromotherapy systems",
+    "Bathtub panels",
+    "General accessories"
+  ]
+}

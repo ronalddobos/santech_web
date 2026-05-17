@@ -1,0 +1,74 @@
+{
+  "company": {
+    "name": "SANTECH plus s.r.o.",
+    "original_name": "MARIKA",
+    "founded": 1995,
+    "renamed": 1998,
+    "founders_acronym": "Matyáš, Richard, Karlík",
+    "address": "Horní Lhota 180, Dolní Lhota u Luhačovic 763 23",
+    "ico": "60755148",
+    "dic": "CZ60755148",
+    "website": "www.santech.cz",
+    "email_general": "objednavky@santech.cz",
+    "email_service": "servis@santech.cz",
+    "business_hours": "Po-Pá: 7:00-16:30",
+    "consultation_hours": "Po-Pá: 8:00-16:00",
+    "copyright": "2022 SANTECH PLUS s.r.o.",
+    "language_options": ["cs", "sk"],
+    "certifications": ["ISO 9001:2000", "EkoKom", "Medical device certification"],
+    "key_stats": {
+      "years_experience": "30+",
+      "bathtub_models": "40+",
+      "warranty_years": 10,
+      "minimum_lifespan_years": 20
+    },
+    "manufacturing": {
+      "location": "Valašský region, Czech Republic",
+      "materials": ["LUCITE cast acrylic", "ALTUGLAS cast acrylic", "KOLLER massage components"],
+      "technology": "Cast PMMA acrylic with monolithic construction",
+      "quality": "ISO 9001:2000 certified, environmentally responsible production"
+    },
+    "mission": "Transform the bathroom from a cleansing ritual into a wellness spa experience",
+    "philosophy": "Reliable, practical bathing tubs with original design and modern relaxation tubs from highest-quality materials"
+  },
+  "history": [
+    {"year": 1995, "event": "Company founded as MARIKA s.r.o."},
+    {"year": 1998, "event": "Renamed to SANTECH plus s.r.o."},
+    {"year": 1999, "event": "Began proprietary R&D, introduced massage systems certified as medical devices"},
+    {"year": 2000, "event": "Commenced acrylic bathtub manufacturing with original designs, partnered with notable designers"},
+    {"year": 2011, "event": "Launched new-generation massage systems"},
+    {"year": "present", "event": "Leading Czech manufacturer with 40+ models and certified wellness systems"}
+  ],
+  "team": [
+    {
+      "name": "Jan Klimák",
+      "role": "Sales Representative (Moravia, Slovakia, International)",
+      "phone": "+420 777 822 250",
+      "email": "klimak@santech.cz"
+    },
+    {
+      "name": "Michaela Fišarová",
+      "role": "Sales Representative (Bohemia)",
+      "phone": "+420 777 221 230",
+      "email": "fisarova@santech.cz"
+    },
+    {
+      "name": "Ing. Petr Matyáš",
+      "role": "Massage Bath Specialist / Data Protection Representative",
+      "phone": "+420 777 221 229",
+      "email": "matyas@santech.cz"
+    },
+    {
+      "name": "Ing. Zuzana Maňasová",
+      "role": "Sales Department Head",
+      "phone": "+420 777 221 227 / +420 777 221 260",
+      "email": "manasova@santech.cz"
+    },
+    {
+      "name": "Eva Matyášová",
+      "role": "Accounting",
+      "phone": "+420 777 221 242",
+      "email": "matyasova@santech.cz / fakturace@santech.cz"
+    }
+  ]
+}

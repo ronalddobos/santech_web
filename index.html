@@ -4,37 +4,15 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>SANTECH — České vany prémiové kvality</title>
+  <meta name="description" content="SANTECH plus s.r.o. — český výrobce prémiových akrylátových a masážních van. Více než 40 modelů, 10 let záruky, výroba od roku 1995." />
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
   <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
 </head>
-<body>
+<body data-page="home">
 
-  <!-- ── NAV ────────────────────────────────────────────── -->
-  <header class="nav" id="nav">
-    <a href="#hero" class="nav__logo">
-      <span class="nav__logo-mark">S</span>ANTECH
-    </a>
-    <nav class="nav__links">
-      <a href="#products">Vany</a>
-      <a href="#collections">Kolekce</a>
-      <a href="#quality">Kvalita</a>
-      <a href="#about">O nás</a>
-      <a href="#contact" class="nav__cta">Kontakt</a>
-    </nav>
-    <button class="nav__hamburger" id="hamburger" aria-label="Menu">
-      <span></span><span></span><span></span>
-    </button>
-  </header>
-
-  <div class="mobile-menu" id="mobileMenu">
-    <a href="#products" class="mobile-link">Vany</a>
-    <a href="#collections" class="mobile-link">Kolekce</a>
-    <a href="#quality" class="mobile-link">Kvalita</a>
-    <a href="#about" class="mobile-link">O nás</a>
-    <a href="#contact" class="mobile-link">Kontakt</a>
-  </div>
+  <div id="nav-container"></div>
 
   <!-- ── HERO ───────────────────────────────────────────── -->
   <section class="hero" id="hero">
@@ -56,100 +34,27 @@
         z nejkvalitnějších evropských materiálů. Záruka 10 let.
       </p>
       <div class="hero__actions fade-up delay-3">
-        <a href="#products" class="btn btn--primary">Prozkoumat vany</a>
-        <a href="#collections" class="btn btn--ghost">Naše kolekce</a>
+        <a href="vany.html" class="btn btn--primary">Prozkoumat vany</a>
+        <a href="kolekce-new-time.html" class="btn btn--ghost">Kolekce NEW TIME</a>
       </div>
     </div>
 
     <div class="hero__visual">
-      <div class="bathtub-illustration">
-        <svg viewBox="0 0 600 340" fill="none" xmlns="http://www.w3.org/2000/svg" class="bath-svg">
-          <!-- Tub body -->
-          <ellipse cx="300" cy="260" rx="270" ry="55" fill="url(#shadowGrad)" opacity="0.18"/>
-          <path d="M55 140 Q55 290 300 305 Q545 290 545 140 L520 130 Q520 270 300 285 Q80 270 80 130 Z"
-                fill="url(#tubGrad)" />
-          <path d="M80 130 Q80 270 300 285 Q520 270 520 130"
-                fill="url(#waterGrad)" opacity="0.55"/>
-          <!-- Rim -->
-          <path d="M55 140 Q55 100 300 90 Q545 100 545 140 Q545 160 300 170 Q55 160 55 140 Z"
-                fill="url(#rimGrad)" />
-          <!-- Inner rim highlight -->
-          <ellipse cx="300" cy="140" rx="220" ry="28" fill="url(#innerRimGrad)" opacity="0.6"/>
-          <!-- Water surface -->
-          <ellipse cx="300" cy="145" rx="210" ry="22" fill="url(#waterSurface)" opacity="0.7"/>
-          <!-- Water shimmer lines -->
-          <path d="M150 145 Q220 138 290 145 Q360 152 420 145" stroke="white" stroke-width="1.5" stroke-linecap="round" opacity="0.4"/>
-          <path d="M170 152 Q240 146 310 152 Q370 158 410 152" stroke="white" stroke-width="1" stroke-linecap="round" opacity="0.25"/>
-          <!-- Tap -->
-          <rect x="270" y="70" width="60" height="22" rx="11" fill="url(#tapGrad)"/>
-          <rect x="290" y="55" width="20" height="20" rx="4" fill="url(#tapGrad)"/>
-          <circle cx="300" cy="52" r="7" fill="#c9a96e" opacity="0.9"/>
-          <!-- Faucet -->
-          <rect x="297" y="88" width="6" height="12" rx="3" fill="#c9a96e"/>
-          <!-- Legs -->
-          <ellipse cx="120" cy="296" rx="18" ry="8" fill="#c9a96e" opacity="0.7"/>
-          <ellipse cx="480" cy="296" rx="18" ry="8" fill="#c9a96e" opacity="0.7"/>
-          <rect x="112" y="280" width="16" height="18" rx="4" fill="url(#legGrad)"/>
-          <rect x="472" y="280" width="16" height="18" rx="4" fill="url(#legGrad)"/>
-
-          <!-- Bubbles -->
-          <circle cx="240" cy="138" r="5" fill="white" opacity="0.5" class="bubble b1"/>
-          <circle cx="310" cy="130" r="3.5" fill="white" opacity="0.4" class="bubble b2"/>
-          <circle cx="370" cy="142" r="6" fill="white" opacity="0.35" class="bubble b3"/>
-          <circle cx="260" cy="148" r="2.5" fill="white" opacity="0.5" class="bubble b4"/>
-          <circle cx="340" cy="135" r="4" fill="white" opacity="0.3" class="bubble b5"/>
-
-          <defs>
-            <linearGradient id="tubGrad" x1="55" y1="130" x2="545" y2="305" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#f0ece8"/>
-              <stop offset="60%" stop-color="#e8e2da"/>
-              <stop offset="100%" stop-color="#d4ccc2"/>
-            </linearGradient>
-            <linearGradient id="waterGrad" x1="80" y1="130" x2="520" y2="285" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#a8d4e6"/>
-              <stop offset="100%" stop-color="#6baed6"/>
-            </linearGradient>
-            <linearGradient id="rimGrad" x1="55" y1="90" x2="545" y2="170" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#faf8f5"/>
-              <stop offset="50%" stop-color="#ece6de"/>
-              <stop offset="100%" stop-color="#d8d0c4"/>
-            </linearGradient>
-            <linearGradient id="innerRimGrad" x1="80" y1="112" x2="520" y2="168" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="white" stop-opacity="0.9"/>
-              <stop offset="100%" stop-color="white" stop-opacity="0.2"/>
-            </linearGradient>
-            <radialGradient id="waterSurface" cx="40%" cy="40%">
-              <stop offset="0%" stop-color="#d4eef7"/>
-              <stop offset="100%" stop-color="#7ec8e3"/>
-            </radialGradient>
-            <linearGradient id="tapGrad" x1="270" y1="70" x2="330" y2="92" gradientUnits="userSpaceOnUse">
-              <stop offset="0%" stop-color="#e8d5b0"/>
-              <stop offset="100%" stop-color="#c9a96e"/>
-            </linearGradient>
-            <linearGradient id="legGrad" x1="0" y1="0" x2="0" y2="1">
-              <stop offset="0%" stop-color="#d4b87a"/>
-              <stop offset="100%" stop-color="#a8874a"/>
-            </linearGradient>
-            <radialGradient id="shadowGrad" cx="50%" cy="50%">
-              <stop offset="0%" stop-color="#1a1410" stop-opacity="0.5"/>
-              <stop offset="100%" stop-color="#1a1410" stop-opacity="0"/>
-            </radialGradient>
-          </defs>
-        </svg>
-
-        <div class="bath-stats">
-          <div class="bath-stat">
-            <span class="bath-stat__num">30<sup>+</sup></span>
-            <span class="bath-stat__label">let zkušeností</span>
-          </div>
-          <div class="bath-stat">
-            <span class="bath-stat__num">40<sup>+</sup></span>
-            <span class="bath-stat__label">modelů van</span>
-          </div>
-          <div class="bath-stat">
-            <span class="bath-stat__num">10</span>
-            <span class="bath-stat__label">let záruky</span>
-          </div>
+      <div class="hero__image-wrapper">
+        <img src="data/images/banners/time_concept_banner.jpg" alt="SANTECH volně stojící vana v moderní koupelně" class="hero__image fade-up delay-2" />
+      </div>
+      <div class="bath-stats">
+        <div class="bath-stat">
+          <span class="bath-stat__num">30<sup>+</sup></span>
+          <span class="bath-stat__label">let zkušeností</span>
+        </div>
+        <div class="bath-stat">
+          <span class="bath-stat__num">40<sup>+</sup></span>
+          <span class="bath-stat__label">modelů van</span>
+        </div>
+        <div class="bath-stat">
+          <span class="bath-stat__num">10</span>
+          <span class="bath-stat__label">let záruky</span>
         </div>
       </div>
     </div>
@@ -163,30 +68,20 @@
   <!-- ── MARQUEE ─────────────────────────────────────────── -->
   <div class="marquee-band">
     <div class="marquee-track">
-      <span>Akrylátové vany</span>
-      <span class="dot">·</span>
-      <span>Masážní systémy</span>
-      <span class="dot">·</span>
-      <span>Volně stojící vany</span>
-      <span class="dot">·</span>
-      <span>Kolekce NEW TIME</span>
-      <span class="dot">·</span>
-      <span>Vyrobeno v ČR</span>
-      <span class="dot">·</span>
-      <span>Záruka 10 let</span>
-      <span class="dot">·</span>
-      <span>Akrylátové vany</span>
-      <span class="dot">·</span>
-      <span>Masážní systémy</span>
-      <span class="dot">·</span>
-      <span>Volně stojící vany</span>
-      <span class="dot">·</span>
-      <span>Kolekce NEW TIME</span>
-      <span class="dot">·</span>
-      <span>Vyrobeno v ČR</span>
-      <span class="dot">·</span>
-      <span>Záruka 10 let</span>
-      <span class="dot">·</span>
+      <span>Akrylátové vany</span><span class="dot">·</span>
+      <span>Masážní systémy</span><span class="dot">·</span>
+      <span>Volně stojící vany</span><span class="dot">·</span>
+      <span>Kolekce NEW TIME</span><span class="dot">·</span>
+      <span>Série SHARP</span><span class="dot">·</span>
+      <span>Vyrobeno v ČR</span><span class="dot">·</span>
+      <span>Záruka 10 let</span><span class="dot">·</span>
+      <span>Akrylátové vany</span><span class="dot">·</span>
+      <span>Masážní systémy</span><span class="dot">·</span>
+      <span>Volně stojící vany</span><span class="dot">·</span>
+      <span>Kolekce NEW TIME</span><span class="dot">·</span>
+      <span>Série SHARP</span><span class="dot">·</span>
+      <span>Vyrobeno v ČR</span><span class="dot">·</span>
+      <span>Záruka 10 let</span><span class="dot">·</span>
     </div>
   </div>
 
@@ -200,146 +95,56 @@
       </div>
 
       <div class="products__grid">
-        <div class="product-card reveal">
+        <a href="vany.html" class="product-card reveal">
           <div class="product-card__visual product-card__visual--rect">
-            <svg viewBox="0 0 320 200" class="product-svg">
-              <ellipse cx="160" cy="185" rx="145" ry="22" fill="#0d0d0d" opacity="0.08"/>
-              <path d="M20 75 Q20 175 160 185 Q300 175 300 75 L285 68 Q285 165 160 175 Q35 165 35 68 Z" fill="url(#p1Tub)"/>
-              <path d="M35 68 Q35 165 160 175 Q285 165 285 68" fill="#b8d4e8" opacity="0.45"/>
-              <path d="M20 75 Q20 45 160 38 Q300 45 300 75 Q300 90 160 97 Q20 90 20 75 Z" fill="url(#p1Rim)"/>
-              <ellipse cx="160" cy="75" rx="120" ry="15" fill="white" opacity="0.3"/>
-              <rect x="147" y="28" width="26" height="12" rx="6" fill="#c9a96e"/>
-              <defs>
-                <linearGradient id="p1Tub" x1="20" y1="68" x2="300" y2="185" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#f5f1ec"/>
-                  <stop offset="100%" stop-color="#ddd5c8"/>
-                </linearGradient>
-                <linearGradient id="p1Rim" x1="20" y1="38" x2="300" y2="97" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#ffffff"/>
-                  <stop offset="100%" stop-color="#e8e0d4"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="data/images/products/time.jpg" alt="Klasická obdélníková vana SANTECH TIME" loading="lazy" />
             <div class="product-card__badge">Bestseller</div>
           </div>
           <div class="product-card__body">
             <span class="product-card__cat">Obdélníkové</span>
             <h3>Klasická řada</h3>
             <p>Nadčasové linie, odolný akrylát prvotřídní kvality. Rozměry 140–190 cm.</p>
-            <a href="#contact" class="product-card__link">Zjistit více →</a>
+            <span class="product-card__link">Zjistit více →</span>
           </div>
-        </div>
+        </a>
 
-        <div class="product-card reveal delay-1">
+        <a href="vany.html" class="product-card reveal delay-1">
           <div class="product-card__visual product-card__visual--corner">
-            <svg viewBox="0 0 320 200" class="product-svg">
-              <ellipse cx="160" cy="182" rx="145" ry="20" fill="#0d0d0d" opacity="0.07"/>
-              <path d="M20 160 L20 60 Q20 35 55 25 L260 25 Q300 25 300 65 L300 160 Q300 180 280 185 Q160 192 70 185 Q30 182 20 160 Z" fill="url(#p2Tub)"/>
-              <path d="M35 155 L35 62 Q35 42 60 34 L255 34 Q283 34 283 65 L283 155 Q270 175 160 180 Q60 175 35 155 Z" fill="#b8d4e8" opacity="0.4"/>
-              <path d="M20 60 Q20 35 55 25 L260 25 Q300 25 300 65 Q295 80 275 83 L45 83 Q22 80 20 60 Z" fill="url(#p2Rim)"/>
-              <ellipse cx="165" cy="54" rx="100" ry="13" fill="white" opacity="0.25"/>
-              <rect x="140" y="16" width="26" height="12" rx="6" fill="#c9a96e"/>
-              <defs>
-                <linearGradient id="p2Tub" x1="20" y1="25" x2="300" y2="185" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#f5f1ec"/>
-                  <stop offset="100%" stop-color="#ddd5c8"/>
-                </linearGradient>
-                <linearGradient id="p2Rim" x1="20" y1="25" x2="300" y2="83" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#ffffff"/>
-                  <stop offset="100%" stop-color="#e4dcd0"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="data/images/products/atol.jpg" alt="Rohová vana SANTECH ATOL" loading="lazy" />
           </div>
           <div class="product-card__body">
             <span class="product-card__cat">Rohové</span>
             <h3>Rohová řada</h3>
             <p>Dokonalé využití prostoru i pro dvě osoby. Asymetrické i symetrické provedení.</p>
-            <a href="#contact" class="product-card__link">Zjistit více →</a>
+            <span class="product-card__link">Zjistit více →</span>
           </div>
-        </div>
+        </a>
 
-        <div class="product-card reveal delay-2">
+        <a href="kolekce-new-time.html" class="product-card reveal delay-2">
           <div class="product-card__visual product-card__visual--freestand">
-            <svg viewBox="0 0 320 220" class="product-svg">
-              <ellipse cx="160" cy="202" rx="130" ry="18" fill="#0d0d0d" opacity="0.08"/>
-              <!-- Freestanding oval tub -->
-              <ellipse cx="160" cy="130" rx="130" ry="72" fill="url(#p3Tub)"/>
-              <ellipse cx="160" cy="112" rx="112" ry="56" fill="#b8d4e8" opacity="0.4"/>
-              <ellipse cx="160" cy="110" rx="108" ry="50" fill="url(#p3Water)"/>
-              <!-- Rim highlight -->
-              <ellipse cx="160" cy="110" rx="112" ry="56" fill="none" stroke="white" stroke-width="2" opacity="0.4"/>
-              <!-- Faucet -->
-              <rect x="147" y="62" width="26" height="14" rx="7" fill="#c9a96e"/>
-              <rect x="156" y="48" width="8" height="18" rx="4" fill="#c9a96e"/>
-              <!-- Legs -->
-              <rect x="82" y="196" width="14" height="10" rx="3" fill="#c9a96e" opacity="0.85"/>
-              <rect x="224" y="196" width="14" height="10" rx="3" fill="#c9a96e" opacity="0.85"/>
-              <rect x="148" y="196" width="24" height="8" rx="3" fill="#c9a96e" opacity="0.7"/>
-              <defs>
-                <radialGradient id="p3Tub" cx="40%" cy="35%">
-                  <stop offset="0%" stop-color="#faf8f5"/>
-                  <stop offset="60%" stop-color="#ede7de"/>
-                  <stop offset="100%" stop-color="#d8d0c4"/>
-                </radialGradient>
-                <radialGradient id="p3Water" cx="40%" cy="40%">
-                  <stop offset="0%" stop-color="#d8eef8"/>
-                  <stop offset="100%" stop-color="#7ec8e3"/>
-                </radialGradient>
-              </defs>
-            </svg>
+            <img src="data/images/new-time/time_top_d.jpg" alt="Volně stojící vana SANTECH TIME TOP" loading="lazy" />
             <div class="product-card__badge product-card__badge--gold">Prémiová</div>
           </div>
           <div class="product-card__body">
             <span class="product-card__cat">Volně stojící</span>
             <h3>Řada NEW TIME</h3>
             <p>Ikonická volně stojící vana. Minimalistický design pro moderní koupelny.</p>
-            <a href="#collections" class="product-card__link">Zjistit více →</a>
+            <span class="product-card__link">Zjistit více →</span>
           </div>
-        </div>
+        </a>
 
-        <div class="product-card reveal delay-3">
+        <a href="wellness.html" class="product-card reveal delay-3">
           <div class="product-card__visual product-card__visual--massage">
-            <svg viewBox="0 0 320 200" class="product-svg">
-              <ellipse cx="160" cy="185" rx="145" ry="20" fill="#0d0d0d" opacity="0.07"/>
-              <path d="M20 75 Q20 175 160 185 Q300 175 300 75 L285 68 Q285 165 160 175 Q35 165 35 68 Z" fill="url(#p4Tub)"/>
-              <path d="M35 68 Q35 165 160 175 Q285 165 285 68" fill="#96c8e0" opacity="0.5"/>
-              <path d="M20 75 Q20 45 160 38 Q300 45 300 75 Q300 90 160 97 Q20 90 20 75 Z" fill="url(#p4Rim)"/>
-              <!-- Massage jets -->
-              <circle cx="70" cy="110" r="7" fill="#c9a96e" opacity="0.9"/>
-              <circle cx="70" cy="130" r="7" fill="#c9a96e" opacity="0.9"/>
-              <circle cx="70" cy="150" r="7" fill="#c9a96e" opacity="0.9"/>
-              <circle cx="250" cy="110" r="7" fill="#c9a96e" opacity="0.9"/>
-              <circle cx="250" cy="130" r="7" fill="#c9a96e" opacity="0.9"/>
-              <circle cx="250" cy="150" r="7" fill="#c9a96e" opacity="0.9"/>
-              <!-- Jet ripples -->
-              <circle cx="70" cy="110" r="12" stroke="#c9a96e" stroke-width="1" fill="none" opacity="0.4"/>
-              <circle cx="250" cy="130" r="12" stroke="#c9a96e" stroke-width="1" fill="none" opacity="0.4"/>
-              <!-- Control panel -->
-              <rect x="140" y="165" width="40" height="10" rx="5" fill="#2a3a4a" opacity="0.7"/>
-              <circle cx="153" cy="170" r="3" fill="#c9a96e"/>
-              <circle cx="163" cy="170" r="3" fill="#96c8e0"/>
-              <circle cx="173" cy="170" r="3" fill="#c9a96e"/>
-              <defs>
-                <linearGradient id="p4Tub" x1="20" y1="68" x2="300" y2="185" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#edf3f7"/>
-                  <stop offset="100%" stop-color="#d0dde6"/>
-                </linearGradient>
-                <linearGradient id="p4Rim" x1="20" y1="38" x2="300" y2="97" gradientUnits="userSpaceOnUse">
-                  <stop offset="0%" stop-color="#ffffff"/>
-                  <stop offset="100%" stop-color="#dde7ee"/>
-                </linearGradient>
-              </defs>
-            </svg>
+            <img src="data/images/body200/milo_body200.jpg" alt="Masážní vana SANTECH MILO BODY 200" loading="lazy" />
             <div class="product-card__badge product-card__badge--blue">8 programů</div>
           </div>
           <div class="product-card__body">
             <span class="product-card__cat">Masážní</span>
             <h3>Wellness systémy</h3>
             <p>8 wellness programů, nastavitelná intenzita, barevné osvětlení. Certifikováno jako zdravotní prostředek.</p>
-            <a href="#contact" class="product-card__link">Zjistit více →</a>
+            <span class="product-card__link">Zjistit více →</span>
           </div>
-        </div>
+        </a>
       </div>
     </div>
   </section>
@@ -351,67 +156,82 @@
         <p class="eyebrow eyebrow--light">Vlajkové kolekce</p>
         <h2>Kolekce<br/><em>NEW TIME</em></h2>
         <p>Série NEW TIME představuje nejzajímavější sortiment volně stojících van na trhu. Bezprecedentní různorodost a několik originálních konceptů, které obohatí každou koupelnu.</p>
-        <a href="#contact" class="btn btn--primary">Požádat o katalog</a>
+        <a href="kolekce-new-time.html" class="btn btn--primary">Prozkoumat kolekci</a>
       </div>
     </div>
     <div class="collections__right">
       <div class="collection-item reveal">
         <div class="collection-item__num">01</div>
         <div class="collection-item__body">
-          <h3>Time Milo</h3>
-          <p>Organické křivky inspirované přírodou. Vana Milo navozuje pocit úplného uvolnění a stává se dominantou každé koupelny.</p>
-          <div class="collection-tags">
-            <span>Volně stojící</span>
-            <span>Organický tvar</span>
-            <span>170 × 80 cm</span>
+          <div class="collection-item__row">
+            <div class="collection-item__text">
+              <h3>Time Milo</h3>
+              <p>Organické křivky inspirované přírodou. Vana Milo navozuje pocit úplného uvolnění a stává se dominantou každé koupelny.</p>
+              <div class="collection-tags">
+                <span>Volně stojící</span><span>Organický tvar</span>
+              </div>
+            </div>
+            <img src="data/images/new-time/time_milo_d.jpg" alt="Time Milo" class="collection-item__img" loading="lazy" />
           </div>
         </div>
       </div>
       <div class="collection-item reveal delay-1">
         <div class="collection-item__num">02</div>
         <div class="collection-item__body">
-          <h3>Time Top</h3>
-          <p>Výjimečný design s nadčasovou elegancí. Plochý okraj a čistá geometrie pro moderní interiéry.</p>
-          <div class="collection-tags">
-            <span>Volně stojící</span>
-            <span>Minimalistický</span>
-            <span>175 × 80 cm</span>
+          <div class="collection-item__row">
+            <div class="collection-item__text">
+              <h3>Time Top</h3>
+              <p>Výjimečný design s nadčasovou elegancí. Plochý okraj a čistá geometrie pro moderní interiéry.</p>
+              <div class="collection-tags">
+                <span>Volně stojící</span><span>Minimalistický</span>
+              </div>
+            </div>
+            <img src="data/images/new-time/time_top_d.jpg" alt="Time Top" class="collection-item__img" loading="lazy" />
           </div>
         </div>
       </div>
       <div class="collection-item reveal delay-2">
         <div class="collection-item__num">03</div>
         <div class="collection-item__body">
-          <h3>Time Evo</h3>
-          <p>Evoluce klasiky. Dynamicky tvarovaná silueta s ergonomickým opěradlem pro maximální pohodlí.</p>
-          <div class="collection-tags">
-            <span>Volně stojící</span>
-            <span>Ergonomický</span>
-            <span>180 × 85 cm</span>
+          <div class="collection-item__row">
+            <div class="collection-item__text">
+              <h3>Time Evo</h3>
+              <p>Evoluce klasiky. Dynamicky tvarovaná silueta s ergonomickým opěradlem pro maximální pohodlí.</p>
+              <div class="collection-tags">
+                <span>Volně stojící</span><span>Ergonomický</span>
+              </div>
+            </div>
+            <img src="data/images/new-time/time_evo_h.jpg" alt="Time Evo" class="collection-item__img" loading="lazy" />
           </div>
         </div>
       </div>
       <div class="collection-item reveal delay-3">
         <div class="collection-item__num">04</div>
         <div class="collection-item__body">
-          <h3>Time Kube</h3>
-          <p>Architektonická přesnost. Striktní pravoúhlé linie pro odvážné interiéry, kde designový detail rozhoduje.</p>
-          <div class="collection-tags">
-            <span>Volně stojící</span>
-            <span>Architektonický</span>
-            <span>180 × 80 cm</span>
+          <div class="collection-item__row">
+            <div class="collection-item__text">
+              <h3>Time Kube</h3>
+              <p>Architektonická přesnost. Striktní pravoúhlé linie pro odvážné interiéry, kde designový detail rozhoduje.</p>
+              <div class="collection-tags">
+                <span>Volně stojící</span><span>Architektonický</span>
+              </div>
+            </div>
+            <img src="data/images/new-time/time_kube_h.jpg" alt="Time Kube" class="collection-item__img" loading="lazy" />
           </div>
         </div>
       </div>
       <div class="collection-item reveal delay-4">
         <div class="collection-item__num">05</div>
         <div class="collection-item__body">
-          <h3>Time Gemini</h3>
-          <p>Vana pro dva. Symetrický design s dvojitým opěradlem — ideální pro společné chvíle relaxace.</p>
-          <div class="collection-tags">
-            <span>Volně stojící</span>
-            <span>Pro dva</span>
-            <span>190 × 120 cm</span>
+          <div class="collection-item__row">
+            <div class="collection-item__text">
+              <h3>Time Gemini</h3>
+              <p>Vana pro dva. Symetrický design s dvojitým opěradlem — ideální pro společné chvíle relaxace.</p>
+              <div class="collection-tags">
+                <span>Volně stojící</span><span>Pro dva</span>
+              </div>
+            </div>
+            <img src="data/images/new-time/time_gemini_d.jpg" alt="Time Gemini" class="collection-item__img" loading="lazy" />
           </div>
         </div>
       </div>
@@ -428,60 +248,42 @@
       <div class="quality__grid">
         <div class="quality-card reveal">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M14 24l7 7 13-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><circle cx="24" cy="24" r="22" stroke="currentColor" stroke-width="1.5"/><path d="M14 24l7 7 13-13" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3>10 let záruky</h3>
           <p>Garantujeme minimální životnost 20 let a poskytujeme zákonnou záruku 10 let na každý výrobek.</p>
         </div>
         <div class="quality-card reveal delay-1">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M24 6L8 14v14c0 9 7.5 16 16 18 8.5-2 16-9 16-18V14L24 6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/>
-              <path d="M17 24l5 5 9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 6L8 14v14c0 9 7.5 16 16 18 8.5-2 16-9 16-18V14L24 6z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><path d="M17 24l5 5 9-9" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg>
           </div>
           <h3>Lékařská certifikace</h3>
           <p>Naše masážní systémy jsou certifikovány jako zdravotnické prostředky — bezpečnost na prvním místě.</p>
         </div>
         <div class="quality-card reveal delay-2">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M6 38 Q24 8 42 38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/>
-              <circle cx="24" cy="22" r="6" stroke="currentColor" stroke-width="1.5"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M6 38 Q24 8 42 38" stroke="currentColor" stroke-width="1.5" stroke-linecap="round"/><circle cx="24" cy="22" r="6" stroke="currentColor" stroke-width="1.5"/></svg>
           </div>
           <h3>Prémiový akrylát</h3>
           <p>Výhradně litý akrylát od předních evropských výrobců ALTUGLAS a LUCITE — nejkvalitnější materiál dostupný na trhu.</p>
         </div>
         <div class="quality-card reveal delay-3">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><rect x="8" y="8" width="32" height="32" rx="4" stroke="currentColor" stroke-width="1.5"/><path d="M16 24h16M24 16v16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </div>
           <h3>Vlastní vývoj</h3>
           <p>Od roku 1999 investujeme do vlastního výzkumu a vývoje ve spolupráci s předními průmyslovými design studii.</p>
         </div>
         <div class="quality-card reveal delay-4">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M10 28l6-10 8 6 8-12 6 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
-              <circle cx="38" cy="22" r="3" fill="currentColor"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M10 28l6-10 8 6 8-12 6 8" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><circle cx="38" cy="22" r="3" fill="currentColor"/></svg>
           </div>
           <h3>8 wellness programů</h3>
           <p>Pokročilé masážní systémy s nastavitelnou intenzitou, trváním a barevnou atmosférou světla.</p>
         </div>
         <div class="quality-card reveal delay-5">
           <div class="quality-card__icon">
-            <svg viewBox="0 0 48 48" fill="none">
-              <path d="M24 8C15.2 8 8 15.2 8 24s7.2 16 16 16 16-7.2 16-16S32.8 8 24 8z" stroke="currentColor" stroke-width="1.5"/>
-              <path d="M24 16v8l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
-            </svg>
+            <svg viewBox="0 0 48 48" fill="none"><path d="M24 8C15.2 8 8 15.2 8 24s7.2 16 16 16 16-7.2 16-16S32.8 8 24 8z" stroke="currentColor" stroke-width="1.5"/><path d="M24 16v8l5 3" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></svg>
           </div>
           <h3>30+ let výroby</h3>
           <p>Více než tři dekády zkušeností v oboru a tisíce spokojených zákazníků po celé České republice.</p>
@@ -543,6 +345,17 @@
           <span class="about-num__label">výroba</span>
         </div>
       </div>
+      <a href="o-nas.html" class="btn btn--primary" style="margin-top:2rem">Více o nás</a>
+    </div>
+  </section>
+
+  <!-- ── DEALERS CTA ─────────────────────────────────────── -->
+  <section class="section--cream-dark">
+    <div class="container" style="text-align:center; max-width:700px;">
+      <p class="eyebrow">Prodejní místa</p>
+      <h2>Kde nás najdete</h2>
+      <p class="section-sub" style="margin-bottom:2.5rem;">Naše vany si můžete prohlédnout a vyzkoušet u autorizovaných prodejců po celé České republice i na Slovensku.</p>
+      <a href="prodejci.html" class="btn btn--primary">Najít prodejce</a>
     </div>
   </section>
 
@@ -556,35 +369,29 @@
         <div class="contact-details">
           <div class="contact-detail">
             <div class="contact-detail__icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/>
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
             </div>
             <div>
               <strong>Adresa</strong>
-              <span>Česká republika</span>
+              <span>Horní Lhota 180, 763 23 Dolní Lhota u Luhačovic</span>
             </div>
           </div>
           <div class="contact-detail">
             <div class="contact-detail__icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/>
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
             </div>
             <div>
               <strong>E-mail</strong>
-              <span>info@santech.cz</span>
+              <span>objednavky@santech.cz</span>
             </div>
           </div>
           <div class="contact-detail">
             <div class="contact-detail__icon">
-              <svg viewBox="0 0 24 24" fill="none">
-                <path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/>
-              </svg>
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
             </div>
             <div>
               <strong>Telefon</strong>
-              <span>+420 xxx xxx xxx</span>
+              <span>+420 777 221 227</span>
             </div>
           </div>
         </div>
@@ -602,13 +409,19 @@
           </div>
         </div>
         <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" placeholder="+420 xxx xxx xxx" />
+        </div>
+        <div class="form-group">
           <label for="interest">Zájem o</label>
           <select id="interest" name="interest">
             <option value="">— Vyberte kategorii —</option>
             <option>Akrylátové vany</option>
             <option>Masážní vany</option>
             <option>Volně stojící vany – NEW TIME</option>
+            <option>Série SHARP</option>
             <option>Rohové vany</option>
+            <option>Nízké vany ONE</option>
             <option>Příslušenství</option>
           </select>
         </div>
@@ -622,45 +435,9 @@
     </div>
   </section>
 
-  <!-- ── FOOTER ─────────────────────────────────────────── -->
-  <footer class="footer">
-    <div class="footer__top">
-      <div class="footer__brand">
-        <div class="footer__logo">
-          <span class="nav__logo-mark">S</span>ANTECH
-        </div>
-        <p>České vany prémiové kvality.<br/>Výroba od roku 1995.</p>
-      </div>
-      <nav class="footer__nav">
-        <div class="footer__col">
-          <h4>Produkty</h4>
-          <a href="#products">Akrylátové vany</a>
-          <a href="#products">Masážní vany</a>
-          <a href="#collections">Volně stojící</a>
-          <a href="#products">Rohové vany</a>
-        </div>
-        <div class="footer__col">
-          <h4>Kolekce</h4>
-          <a href="#collections">NEW TIME</a>
-          <a href="#collections">Time Milo</a>
-          <a href="#collections">Time Kube</a>
-          <a href="#collections">Time Gemini</a>
-        </div>
-        <div class="footer__col">
-          <h4>Společnost</h4>
-          <a href="#about">O nás</a>
-          <a href="#quality">Kvalita</a>
-          <a href="#contact">Kontakt</a>
-          <a href="#contact">Poptávka</a>
-        </div>
-      </nav>
-    </div>
-    <div class="footer__bottom">
-      <p>&copy; 2025 SANTECH plus s.r.o. Všechna práva vyhrazena.</p>
-      <p>Redesign — demo projekt</p>
-    </div>
-  </footer>
+  <div id="footer-container"></div>
 
+  <script src="components.js"></script>
   <script src="main.js"></script>
 </body>
 </html>

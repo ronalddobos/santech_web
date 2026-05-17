@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Kontakt — SANTECH</title>
+  <meta name="description" content="Kontaktujte SANTECH plus s.r.o. — poradenství, objednávky a technická podpora. Horní Lhota 180, 763 23 Dolní Lhota u Luhačovic." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body data-page="kontakt">
+
+  <div id="nav-container"></div>
+
+  <!-- ── PAGE HEADER ─────────────────────────────────────── -->
+  <section class="page-header page-header--dark">
+    <div class="page-header__overlay"></div>
+    <div class="page-header__content">
+      <nav class="breadcrumb">
+        <a href="index.html" class="breadcrumb__link">Domů</a>
+        <span class="breadcrumb__sep">/</span>
+        <span class="breadcrumb__current">Kontakt</span>
+      </nav>
+      <h1>Kontakt</h1>
+    </div>
+  </section>
+
+  <!-- ── CONTACT SECTION ─────────────────────────────────── -->
+  <section class="contact">
+    <div class="contact__inner">
+      <div class="contact__info">
+        <p class="eyebrow eyebrow--light">Kontaktujte nás</p>
+        <h2>Jsme tu pro vás</h2>
+        <p>Náš tým odborníků vám pomůže s výběrem vany, masážního systému i příslušenství. Rádi poradíme s rozměry, instalací i údržbou.</p>
+        <div class="contact-details">
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Adresa</strong>
+              <span>Horní Lhota 180, 763 23 Dolní Lhota u Luhačovic</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>E-mail</strong>
+              <span>objednavky@santech.cz</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M6.62 10.79c1.44 2.83 3.76 5.14 6.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1V20c0 .55-.45 1-1 1-9.39 0-17-7.61-17-17 0-.55.45-1 1-1h3.5c.55 0 1 .45 1 1 0 1.25.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Telefon</strong>
+              <span>+420 777 221 227</span>
+            </div>
+          </div>
+          <div class="contact-detail">
+            <div class="contact-detail__icon">
+              <svg viewBox="0 0 24 24" fill="none"><path d="M11.99 2C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8zm.5-13H11v6l5.25 3.15.75-1.23-4.5-2.67V7z" fill="currentColor"/></svg>
+            </div>
+            <div>
+              <strong>Provozní doba</strong>
+              <span>Po-Pá: 7:00–16:30</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <form class="contact__form" id="contactForm">
+        <div class="form-row">
+          <div class="form-group">
+            <label for="name">Jméno</label>
+            <input type="text" id="name" name="name" placeholder="Jan Novák" required />
+          </div>
+          <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="jan@example.cz" required />
+          </div>
+        </div>
+        <div class="form-group">
+          <label for="phone">Telefon</label>
+          <input type="tel" id="phone" name="phone" placeholder="+420 xxx xxx xxx" />
+        </div>
+        <div class="form-group">
+          <label for="interest">Zájem o</label>
+          <select id="interest" name="interest">
+            <option value="">— Vyberte kategorii —</option>
+            <option>Akrylátové vany</option>
+            <option>Masážní vany</option>
+            <option>Volně stojící vany – NEW TIME</option>
+            <option>Série SHARP</option>
+            <option>Rohové vany</option>
+            <option>Nízké vany ONE</option>
+            <option>Příslušenství</option>
+          </select>
+        </div>
+        <div class="form-group">
+          <label for="message">Zpráva</label>
+          <textarea id="message" name="message" rows="4" placeholder="Popište váš projekt nebo dotaz..."></textarea>
+        </div>
+        <button type="submit" class="btn btn--primary btn--full">Odeslat poptávku</button>
+        <p class="form-note">Odpovíme do 24 hodin v pracovní dny.</p>
+      </form>
+    </div>
+  </section>
+
+  <!-- ── ONLINE PORADENSTVÍ ──────────────────────────────── -->
+  <section class="section--cream">
+    <div class="container" style="text-align:center; max-width:800px;">
+      <div class="section-header">
+        <p class="eyebrow">Poradenství</p>
+        <h2>On-line poradenství</h2>
+        <p class="section-sub">Naši specialisté vám poradí s výběrem masážního systému, cenovými nabídkami, přípravou koupelny, instalací i záručním servisem.</p>
+      </div>
+      <div class="about__numbers" style="margin-bottom:2rem;">
+        <div class="about-num">
+          <span class="about-num__val" style="font-size:1.2rem;">+420 777 221 229</span>
+          <span class="about-num__label">Masážní systémy</span>
+        </div>
+        <div class="about-num">
+          <span class="about-num__val" style="font-size:1.2rem;">+420 777 221 260</span>
+          <span class="about-num__label">Technická podpora</span>
+        </div>
+        <div class="about-num">
+          <span class="about-num__val" style="font-size:1.2rem;">+420 777 822 250</span>
+          <span class="about-num__label">Morava a SR</span>
+        </div>
+        <div class="about-num">
+          <span class="about-num__val" style="font-size:1.2rem;">+420 777 221 230</span>
+          <span class="about-num__label">Čechy</span>
+        </div>
+      </div>
+      <p style="color:var(--clr-text-muted, #666);">Dostupnost: Po-Pá 8:00-16:00</p>
+    </div>
+  </section>
+
+  <!-- ── TEAM ────────────────────────────────────────────── -->
+  <section class="section--white">
+    <div class="container">
+      <div class="section-header">
+        <p class="eyebrow">Lidé</p>
+        <h2>Náš tým</h2>
+      </div>
+      <div class="team-grid">
+        <div class="team-card reveal">
+          <h3 class="team-card__name">Jan Klimák</h3>
+          <p class="team-card__role">Obchodní zástupce (Morava, SR)</p>
+          <div class="team-card__contact">
+            <a href="tel:+420777822250">+420 777 822 250</a>
+            <a href="mailto:klimak@santech.cz">klimak@santech.cz</a>
+          </div>
+        </div>
+        <div class="team-card reveal delay-1">
+          <h3 class="team-card__name">Michaela Fišarová</h3>
+          <p class="team-card__role">Obchodní zástupce (Čechy)</p>
+          <div class="team-card__contact">
+            <a href="tel:+420777221230">+420 777 221 230</a>
+            <a href="mailto:fisarova@santech.cz">fisarova@santech.cz</a>
+          </div>
+        </div>
+        <div class="team-card reveal delay-2">
+          <h3 class="team-card__name">Ing. Petr Matyáš</h3>
+          <p class="team-card__role">Specialista masážních van</p>
+          <div class="team-card__contact">
+            <a href="tel:+420777221229">+420 777 221 229</a>
+            <a href="mailto:matyas@santech.cz">matyas@santech.cz</a>
+          </div>
+        </div>
+        <div class="team-card reveal delay-3">
+          <h3 class="team-card__name">Ing. Zuzana Maňasová</h3>
+          <p class="team-card__role">Vedoucí obchodního oddělení</p>
+          <div class="team-card__contact">
+            <a href="tel:+420777221227">+420 777 221 227</a>
+            <a href="mailto:manasova@santech.cz">manasova@santech.cz</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-container"></div>
+
+  <script src="components.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>

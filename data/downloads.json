@@ -1,0 +1,61 @@
+{
+  "downloads": {
+    "catalogs": [
+      {"name": "Virtual catalog - SHARP acrylic baths", "format": "virtual/online"},
+      {"name": "Virtual catalog - NEW TIME solitary baths", "format": "virtual/online"},
+      {"name": "Virtual catalog - acrylic baths", "format": "virtual/online"},
+      {"name": "Series SHARP - straight and sharp edge bath", "format": "PDF"},
+      {"name": "Catalog of solitary baths NEW TIME 2023", "format": "PDF"},
+      {"name": "Catalog of acrylic baths 2021", "format": "PDF"}
+    ],
+    "price_lists": [
+      {"name": "Acrylic baths, SLIM series, SHARP series and accessories", "format": "PDF", "year": 2024},
+      {"name": "Acrylic baths, SLIM series, SHARP series and accessories", "format": "xlsx", "year": 2024},
+      {"name": "Solitary baths NEW TIME", "format": "PDF"},
+      {"name": "Solitary baths NEW TIME", "format": "xlsx"},
+      {"name": "Hydromassage baths", "format": "PDF"},
+      {"name": "Hydromassage baths", "format": "xlsx"},
+      {"name": "Hydromassage systems 2012", "format": "PDF"},
+      {"name": "Concept low bath ONE 35 cm", "format": "PDF"},
+      {"name": "Limited edition massage systems", "format": "PDF"}
+    ],
+    "operating_manuals": [
+      {"name": "BODY 200 system", "format": "PDF"},
+      {"name": "BODY 300 system", "format": "PDF"},
+      {"name": "RELAXA 200 system", "format": "PDF"},
+      {"name": "RELAXA 300 system", "format": "PDF"},
+      {"name": "FITNES 200 system", "format": "PDF"},
+      {"name": "FITNES 300 system", "format": "PDF"},
+      {"name": "COMFORT system", "format": "PDF"},
+      {"name": "Relaxing effects of hydromassage baths", "format": "PDF"},
+      {"name": "Video guide for COMFORT system", "format": "video"}
+    ],
+    "installation_guides": {
+      "baths": [
+        "Acrylic bath assembly",
+        "Solitary bath assembly",
+        "Chromotherapy assembly and operation"
+      ],
+      "bath_screens": [
+        "ACTIMA", "AURORA1", "AURORA2", "AURORA3", "AURORA (niche 2SV4)",
+        "AXEL 2-part", "AXEL 3-part",
+        "COMBY", "COMBY 2",
+        "YOUNG 1V", "YOUNG 3V", "YOUNG 1BSV"
+      ],
+      "bath_panels": ["Panels for IRIS bath"],
+      "massage_bath": [
+        "Building preparation requirements",
+        "Assembly instructions"
+      ]
+    },
+    "official_documents": [
+      "Warranty certificate",
+      "Certificates for acrylic baths (ZIP)",
+      "Certificates for hydrotherapeutic baths",
+      "EkoKom certificate",
+      "Business registry extract",
+      "Trade license",
+      "Declarations of properties (baths, massage systems, Novellini screens)"
+    ]
+  }
+}

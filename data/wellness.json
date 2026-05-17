@@ -1,0 +1,47 @@
+{
+  "wellness_systems": {
+    "brand": "SANTECH ENERGY",
+    "description": "New generation massage systems with medical certification for home and professional use (wellness, healthcare, hydrotherapy).",
+    "certifications": ["Medical device attestation (zdravotnický atest)", "Suitable for public wellness facilities and healthcare settings"],
+    "features": {
+      "massage_types": [
+        "Individually adjustable relaxation programs",
+        "Individually adjustable rehabilitation programs",
+        "Turbo massage (dynamic option)",
+        "Champagne bath (patented gentle pearl bubbles)",
+        "User-created custom massage procedures"
+      ],
+      "control": [
+        "Modern touch LCD display",
+        "Preset programs",
+        "Electronic maintenance system"
+      ],
+      "design_principles": [
+        "Simple maintenance",
+        "Perfect functionality",
+        "Ergonomic nozzle design",
+        "Minimalist approach"
+      ]
+    },
+    "systems": [
+      {"name": "BODY 200", "manual_available": true},
+      {"name": "BODY 300", "manual_available": true},
+      {"name": "RELAXA 200", "manual_available": true},
+      {"name": "RELAXA 300", "manual_available": true},
+      {"name": "FITNES 200", "manual_available": true},
+      {"name": "FITNES 300", "manual_available": true},
+      {"name": "COMFORT", "manual_available": true, "video_guide": true}
+    ],
+    "applications": [
+      "Domestic/home use",
+      "Wellness centers",
+      "Spa facilities",
+      "Healthcare/hydrothermal therapy"
+    ],
+    "health_benefits": [
+      "Relaxation (gentle to intense)",
+      "Rehabilitation",
+      "Hydrotherapeutic treatment"
+    ]
+  }
+}

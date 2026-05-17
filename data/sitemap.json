@@ -1,0 +1,42 @@
+{
+  "current_live_site": {
+    "base_url": "https://santech.cz",
+    "pages": {
+      "primary_navigation": [
+        {"path": "/", "title": "Homepage", "type": "landing"},
+        {"path": "/o-nas", "title": "O nás (About Us)", "type": "company"},
+        {"path": "/kontakty", "title": "Kontakty (Contacts)", "type": "contact"},
+        {"path": "/prodejni-mista", "title": "Prodejní místa (Sales Locations)", "type": "dealers"},
+        {"path": "/vystavene-vzorky", "title": "Vystavené vzorky (Displayed Samples)", "type": "dealers"},
+        {"path": "/servisni-sluzby", "title": "Servis a údržba (Service & Maintenance)", "type": "service"},
+        {"path": "/ke-stazeni", "title": "Ke stažení (Downloads)", "type": "resources"},
+        {"path": "/vase-dotazy", "title": "Vaše dotazy (Your Questions / Contact Form)", "type": "contact"}
+      ],
+      "secondary_navigation": [
+        {"path": "/vyrobky/akrylatove-vany", "title": "Výrobky (Products - Full Catalog)", "type": "catalog"},
+        {"path": "/vany", "title": "Koupání (Bathing Concepts)", "type": "concept"},
+        {"path": "/nova-generace-masazi", "title": "Wellness (New Generation Massage)", "type": "concept"},
+        {"path": "/koncepty-nizka-vana", "title": "Koncepty (Low Bath Concept)", "type": "concept"}
+      ],
+      "product_series_pages": [
+        {"path": "/vyrobky/serie-sharp10", "title": "Vany SHARP 10", "type": "product_series"},
+        {"path": "/vyrobky/serie-sharp", "title": "Vany SHARP", "type": "product_series"},
+        {"path": "/vyrobky/soliterni-vany-new-time", "title": "Koncept Time (NEW TIME Freestanding)", "type": "product_series"},
+        {"path": "/vyrobky/nizke-vany", "title": "Nízké vany ONE (Low Bathtubs)", "type": "product_series"},
+        {"path": "/vyrobky/masazni-system-body-200", "title": "Masážní systém BODY 200", "type": "product_series"}
+      ],
+      "legal": [
+        {"path": "/zasady-ochrany-osobnich-udaju", "title": "Zásady ochrany osobních údajů (Privacy Policy)", "type": "legal"},
+        {"path": "/on-line-poradenstvi", "title": "On-line poradenství (Online Consultation)", "type": "service"}
+      ]
+    },
+    "total_pages": 17,
+    "dynamic_content": ["Sales locations (JS-loaded from database)", "Displayed samples (JS-loaded from database)"]
+  },
+  "current_repo_redesign": {
+    "type": "Single-page static site",
+    "sections": ["hero", "marquee", "products", "collections", "quality", "about", "contact", "footer"],
+    "technology": "Vanilla HTML/CSS/JS",
+    "note": "Demo/concept redesign - single page, no real routing, placeholder content"
+  }
+}

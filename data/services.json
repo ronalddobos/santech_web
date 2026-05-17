@@ -1,0 +1,64 @@
+{
+  "services": {
+    "installation": {
+      "name": "Montáž (Installation)",
+      "price": "3,700 Kč",
+      "travel_cost": "15 Kč/km (max 2,800 Kč)",
+      "description": "Professional installation by trained, certified technicians. Includes VAT-reduced invoicing for private customers and streamlined warranty claim processing."
+    },
+    "warranty_service": {
+      "name": "Záruční servis (Warranty Service)",
+      "requirements": "Sales documentation and warranty certificate required",
+      "warranty_period": "10 years"
+    },
+    "post_warranty_service": {
+      "name": "Pozáruční servis (Post-Warranty Service)",
+      "hourly_rate": "750 Kč/hour",
+      "additional": "Plus material costs and travel expenses (15 Kč/km, max 2,800 Kč)"
+    },
+    "online_consultation": {
+      "name": "On-line poradenství (Online Consultation)",
+      "description": "Simply ask, because we are here for you.",
+      "topics": [
+        "Selecting appropriate massage systems",
+        "Pricing massage systems for other manufacturers' bathtubs",
+        "Bathroom preparation for installation",
+        "Professional installation ordering",
+        "Coordinating with other construction work",
+        "Warranty and post-warranty service arrangements"
+      ],
+      "phone_numbers": [
+        "+420 777 221 229",
+        "+420 777 221 260",
+        "+420 777 822 250",
+        "+420 777 221 230"
+      ],
+      "availability": "Monday-Friday 8:00-16:00, electronic form available outside hours"
+    },
+    "maintenance_guides": [
+      "Acrylic bathtub maintenance",
+      "Massage system bathtub maintenance",
+      "Bathtub enclosure maintenance"
+    ]
+  },
+  "sales_locations": {
+    "description": "Dealer network across Czech Republic and Slovakia",
+    "czech_regions": [
+      "Praha", "Jihočeský kraj", "Jihomoravský kraj", "Karlovarský kraj",
+      "Kraj Vysočina", "Královéhradecký kraj", "Liberecký kraj",
+      "Moravskoslezský kraj", "Olomoucký kraj", "Pardubický kraj",
+      "Plzeňský kraj", "Středočeský kraj", "Ústecký kraj", "Zlínský kraj"
+    ],
+    "slovak_regions": [
+      "Bratislavský kraj", "Banskobystrický kraj", "Košický kraj",
+      "Nitriansky kraj", "Prešovský kraj", "Trenčiansky kraj",
+      "Trnavský kraj", "Žilinský kraj"
+    ],
+    "note": "Actual dealer data loaded dynamically from backend database"
+  },
+  "displayed_samples": {
+    "description": "Physical showroom samples at dealer locations",
+    "product_count": "150+ models available for filtering",
+    "filter_options": ["By product model", "By region", "By city", "By dealer"]
+  }
+}
