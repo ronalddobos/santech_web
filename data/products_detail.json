@@ -1,0 +1,811 @@
+[
+  {
+    "slug": "ariela",
+    "name": "ARIELA",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Vana ARIELA nabízí překvapivě velký vnitřní prostor – v části opěrky zad měří 80 cm, přičemž se zužuje na 52 cm. Kombinuje pohodlné koupání se sprchovacím prostorem a je kompatibilní s dvou- i třídílnými skládacími zástěnami.",
+    "delivery": "10 dní",
+    "priceFrom": 10396,
+    "image": "../data/images/products/ariela.jpg",
+    "variants": [
+      { "label": "150 × 80 cm — levá", "code": "SAARI150L", "price": 10396 },
+      { "label": "150 × 80 cm — pravá", "code": "SAARI150P", "price": 10396 },
+      { "label": "160 × 80 cm — levá", "code": "SAARI160L", "price": 11262 },
+      { "label": "160 × 80 cm — pravá", "code": "SAARI160P", "price": 11262 }
+    ]
+  },
+  {
+    "slug": "emo",
+    "name": "EMO",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Asymetrická vana EMO spojuje praktický vnitřní prostor s inovativním nakloněním a praktickou odkládací plochou. Rovná přední hrana usnadňuje instalaci a integraci moderní sprchovací zástěny.",
+    "delivery": "10 dní",
+    "priceFrom": 12272,
+    "image": "../data/images/products/emo.jpg",
+    "variants": [
+      { "label": "165 × 90 cm — levá", "code": "SAEMO165L", "price": 12272 },
+      { "label": "165 × 90 cm — pravá", "code": "SAEMO165P", "price": 12272 }
+    ]
+  },
+  {
+    "slug": "evo-s",
+    "name": "EVO-S",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Akrylátová asymetrická vana EVO-S v přísně geometrickém pojetí přináší do Vaší koupelny prosté, čisté vedení linií. Správně skloněná opěrka zad zajišťuje pohodlné relaxační ležení.",
+    "delivery": "10 dní",
+    "priceFrom": 15738,
+    "image": "../data/images/products/evo_s.jpg",
+    "variants": [
+      { "label": "170 × 100 cm — levá", "code": "SAEVO170L", "price": 15738 },
+      { "label": "170 × 100 cm — pravá", "code": "SAEVO170P", "price": 15738 }
+    ]
+  },
+  {
+    "slug": "fiona",
+    "name": "FIONA",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Vana FIONA se vyznačuje velkým vnitřním prostorem a elegantním designem s čistými liniemi. Je vhodná zejména do menších koupelen, kde je třeba šetřit místem, a nabízí levé i pravé provedení.",
+    "delivery": "10 dní",
+    "priceFrom": 11677,
+    "image": "../data/images/products/fiona.jpg",
+    "variants": [
+      { "label": "150 × 85 cm — levá", "code": "SAFIO150L", "price": 11677 },
+      { "label": "150 × 85 cm — pravá", "code": "SAFIO150P", "price": 11677 },
+      { "label": "160 × 95 cm — levá", "code": "SAFIO160L", "price": 12390 },
+      { "label": "160 × 95 cm — pravá", "code": "SAFIO160P", "price": 12390 }
+    ]
+  },
+  {
+    "slug": "fontana",
+    "name": "FONTANA",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Asymetrická vana FONTANA kombinuje komfortní koupání s praktickým sprchováním. Rohový sedák umožňuje pohodlné sprchování a centrální přepad a odpad jsou nezvyklým designovým řešením pro vanu této délky.",
+    "delivery": "10 dní",
+    "priceFrom": 11677,
+    "image": "../data/images/products/fontana.jpg",
+    "variants": [
+      { "label": "150 × 90 cm — levá", "code": "SAFON150L", "price": 11677 },
+      { "label": "150 × 90 cm — pravá", "code": "SAFON150P", "price": 11677 },
+      { "label": "160 × 90 cm — levá", "code": "SAFON160L", "price": 12390 },
+      { "label": "160 × 90 cm — pravá", "code": "SAFON160P", "price": 12390 },
+      { "label": "170 × 95 cm — levá", "code": "SAFON170L", "price": 13344 },
+      { "label": "170 × 95 cm — pravá", "code": "SAFON170P", "price": 13344 }
+    ]
+  },
+  {
+    "slug": "fox",
+    "name": "FOX",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Moderní funkční asymetrická vana FOX je navržena pro různé dispozice koupelen. Vnitřní tvar a jemné zaoblení opěrky poskytují pohodlné koupání i pro vyšší osoby, přičemž spotřeba vody je nižší než u srovnatelných van.",
+    "delivery": "10 dní",
+    "priceFrom": 11677,
+    "image": "../data/images/products/fox.jpg",
+    "variants": [
+      { "label": "150 × 84,5 cm — levá", "code": "SAFOX150L", "price": 11677 },
+      { "label": "150 × 84,5 cm — pravá", "code": "SAFOX150P", "price": 11677 },
+      { "label": "160 × 90 cm — levá", "code": "SAFOX160L", "price": 12390 },
+      { "label": "160 × 90 cm — pravá", "code": "SAFOX160P", "price": 12390 },
+      { "label": "170 × 95,5 cm — levá", "code": "SAFOX170L", "price": 13344 },
+      { "label": "170 × 95,5 cm — pravá", "code": "SAFOX170P", "price": 13344 }
+    ]
+  },
+  {
+    "slug": "gemini-asym",
+    "name": "GEMINI",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Asymetrická vana GEMINI kombinuje hranatý vnější tvar se zaoblenými vnitřními křivkami, čímž získává jemný a elegantní vzhled. Centrálně umístěný odpad umožňuje pohodlné ležení pro dvě osoby.",
+    "delivery": "10 dní",
+    "priceFrom": 11839,
+    "image": "../data/images/products/gemini_asym.jpg",
+    "variants": [
+      { "label": "170 × 75 cm — levá", "code": "SAGEM170L", "price": 11839 },
+      { "label": "170 × 75 cm — pravá", "code": "SAGEM170P", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "lagoon",
+    "name": "LAGOON",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Asymetrická rohová vana LAGOON nabízí vnitřní oválný tvar s výjimečnou šířkou ve středu v oblasti kolen. Vana je komfortní pro dvě osoby a hodí se do prostornějších koupelen.",
+    "delivery": "10 dní",
+    "priceFrom": 13221,
+    "image": "../data/images/products/lagoon.jpg",
+    "variants": [
+      { "label": "168 × 95 cm — levá", "code": "SALAG168L", "price": 13221 },
+      { "label": "168 × 95 cm — pravá", "code": "SALAG168P", "price": 13221 },
+      { "label": "180 × 100 cm — levá", "code": "SALAG180L", "price": 15069 },
+      { "label": "180 × 100 cm — pravá", "code": "SALAG180P", "price": 15069 }
+    ]
+  },
+  {
+    "slug": "optima",
+    "name": "OPTIMA",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Populární asymetrická vana OPTIMA je oblíbenou alternativou klasických obdélníkových van. Zvýšený komfort v oblasti opěrky zad, doplněný volitelnou opěrkou hlavy, zajišťuje ergonomické odpočívání.",
+    "delivery": "10 dní",
+    "priceFrom": 11839,
+    "image": "../data/images/products/optima.jpg",
+    "variants": [
+      { "label": "169 × 75 cm — levá", "code": "SAOPT169L", "price": 11839 },
+      { "label": "169 × 75 cm — pravá", "code": "SAOPT169P", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "viky",
+    "name": "VIKY",
+    "category": "asymetricka",
+    "categoryLabel": "Asymetrická vana",
+    "description": "Ostře řezané kontury a minimalistický tvar navozují v malé koupelně celkový dojem čistoty a elegance. Vana VIKY maximalizuje prostor pro koupání v kompaktních koupelnách.",
+    "delivery": "10 dní",
+    "priceFrom": 11262,
+    "image": "../data/images/products/viky.jpg",
+    "variants": [
+      { "label": "150 × 80 cm — levá", "code": "SAVIK150L", "price": 11262 },
+      { "label": "150 × 80 cm — pravá", "code": "SAVIK150P", "price": 11262 }
+    ]
+  },
+  {
+    "slug": "atol",
+    "name": "ATOL",
+    "category": "rohova",
+    "categoryLabel": "Rohová vana",
+    "description": "Rohová vana ATOL z rodinné kolekce se vyznačuje šestibokým tvarem s vnitřním oválným prostorem. Umožňuje oboustranné ležení s centrálně umístěným odpadem a vhodnou sklonností opěrky pro pohodlný odpočinek.",
+    "delivery": "10 dní",
+    "priceFrom": 15069,
+    "image": "../data/images/products/atol.jpg",
+    "variants": [
+      { "label": "147 × 147 cm", "code": "SAATO147", "price": 15069 }
+    ]
+  },
+  {
+    "slug": "fjord",
+    "name": "FJORD",
+    "category": "rohova",
+    "categoryLabel": "Rohová vana",
+    "description": "Rohová vana FJORD z rodinné kolekce nabízí vnitřní oválný tvar s dostatečným prostorem pro pohodlné koupání. Umožňuje instalaci do rohu, ke stěně nebo volně do prostoru.",
+    "delivery": "10 dní",
+    "priceFrom": 15069,
+    "image": "../data/images/products/fjord.jpg",
+    "variants": [
+      { "label": "145 × 145 cm", "code": "SAFJO145", "price": 15069 }
+    ]
+  },
+  {
+    "slug": "otava",
+    "name": "OTAVA",
+    "category": "rohova",
+    "categoryLabel": "Rohová vana",
+    "description": "Akrylátová rohová vana OTAVA přináší komfort díky větší šířce ve středu, která poskytuje oporu pro pohodlné ležení. Jednoduché linie a rodinné rozměry ji řadí k oblíbeným modelům.",
+    "delivery": "10 dní",
+    "priceFrom": 14121,
+    "image": "../data/images/products/otava.jpg",
+    "variants": [
+      { "label": "140 × 140 cm", "code": "SAOTA140", "price": 14121 }
+    ]
+  },
+  {
+    "slug": "solo",
+    "name": "SOLO",
+    "category": "rohova",
+    "categoryLabel": "Rohová vana",
+    "description": "Rohová vana SOLO představuje renesanci rohových van s jemnými liniemi a geometrickou pravidelností vhodnou pro moderní interiéry. Dostupná ve dvou velikostech.",
+    "delivery": "10 dní",
+    "priceFrom": 14693,
+    "image": "../data/images/products/solo.jpg",
+    "variants": [
+      { "label": "140 × 140 cm", "code": "SASOL140", "price": 14693 },
+      { "label": "150 × 150 cm", "code": "SASOL150", "price": 15738 }
+    ]
+  },
+  {
+    "slug": "vltava",
+    "name": "VLTAVA",
+    "category": "rohova",
+    "categoryLabel": "Rohová vana",
+    "description": "Rohová vana VLTAVA poskytuje největší vnitřní prostor mezi rohovanými vanami na trhu. Prostorný interiér je ideální pro rodinné koupání s dětmi.",
+    "delivery": "10 dní",
+    "priceFrom": 15738,
+    "image": "../data/images/products/vltava.jpg",
+    "variants": [
+      { "label": "150 × 150 cm", "code": "SAVLT150", "price": 15738 }
+    ]
+  },
+  {
+    "slug": "bevel-oval",
+    "name": "BEVEL — oválná",
+    "category": "ovalna",
+    "categoryLabel": "Oválná vana",
+    "description": "Moderní oválná vana BEVEL přináší inovativní design s bohatými možnostmi obkladů – od dekorativních omítek přes cement až po přírodní nebo umělý kámen.",
+    "delivery": "10 dní",
+    "priceFrom": 14121,
+    "image": "../data/images/products/bevel_oval.jpg",
+    "variants": [
+      { "label": "180 × 78,5 cm", "code": "SABEV180", "price": 14121 }
+    ]
+  },
+  {
+    "slug": "bevel-ostruvek",
+    "name": "BEVEL — ostrůvek",
+    "category": "ovalna",
+    "categoryLabel": "Oválná vana",
+    "description": "Oválná vana BEVEL ostrůvek má rozšířený okraj pro integraci vanové stojánkové baterie. Nabízí bohaté možnosti finálních úprav a je navržena jako centrální prvek prostorné koupelny.",
+    "delivery": "10 dní",
+    "priceFrom": 14121,
+    "image": "../data/images/products/bevel_island.jpg",
+    "variants": [
+      { "label": "180 × 86 cm", "code": "SABEV180-O", "price": 14121 }
+    ]
+  },
+  {
+    "slug": "delta",
+    "name": "DELTA",
+    "category": "ovalna",
+    "categoryLabel": "Oválná vana",
+    "description": "Oválná vana DELTA s vnitřními oválnými konturami nabízí výjimečnou šířku ve středu v oblasti kolen – ideální pro dvě osoby. Centrálně umístěný odpad a flexibilní umístění v koupelně.",
+    "delivery": "10 dní",
+    "priceFrom": 15069,
+    "image": "../data/images/products/delta.jpg",
+    "variants": [
+      { "label": "185 × 90 cm", "code": "SADEL185", "price": 15069 }
+    ]
+  },
+  {
+    "slug": "monte",
+    "name": "MONTE",
+    "category": "ovalna",
+    "categoryLabel": "Kulatá vana",
+    "description": "Kulatá vana MONTE s průměrem 160 cm se stane absolutní dominantou každé koupelny. Boční plochy slouží jako pohodlná sedadla i odkládací prostor pro koupelné doplňky.",
+    "delivery": "10 dní",
+    "priceFrom": 28959,
+    "image": "../data/images/products/monte.jpg",
+    "variants": [
+      { "label": "Ø 160 cm", "code": "SAMON160", "price": 28959 }
+    ]
+  },
+  {
+    "slug": "bevel-rect",
+    "name": "BEVEL",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Vana BEVEL je ztělesněním odpočinku a relaxace v moderním obdélníkovém provedení s ergonomickým vnitřním tvarem navrženým pro maximální pohodlí.",
+    "delivery": "10 dní",
+    "priceFrom": 11839,
+    "image": "../data/images/products/bevel_rect.jpg",
+    "variants": [
+      { "label": "180 × 80 cm", "code": "SABEV180-OB", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "elan",
+    "name": "ELAN",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Klasika, která nestárne. Vana ELAN je navržena pro oboustranné ležení s centrálně umístěným odpadem u boční hrany, což je výhodné zejména u kratších modelů.",
+    "delivery": "10 dní",
+    "priceFrom": 10135,
+    "image": "../data/images/products/elan.jpg",
+    "variants": [
+      { "label": "160 × 75 cm", "code": "SAELA160", "price": 10135 },
+      { "label": "170 × 75 cm", "code": "SAELA170", "price": 10758 },
+      { "label": "179,5 × 79,5 cm", "code": "SAELA180", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "evo",
+    "name": "EVO",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Široký okraj vany EVO poskytuje maximální volnost pro umístění baterie nebo pro snadnější nastoupení. Vana je dostupná ve třech délkových variantách s výborným poměrem ceny a kvality.",
+    "delivery": "10 dní",
+    "priceFrom": 10135,
+    "image": "../data/images/products/evo.jpg",
+    "variants": [
+      { "label": "160 × 80 cm", "code": "SAEVO160", "price": 10135 },
+      { "label": "170 × 80 cm", "code": "SAEVO170", "price": 10758 },
+      { "label": "180 × 80 cm", "code": "SAEVO180", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "gemini",
+    "name": "GEMINI",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Obdélníková vana GEMINI kombinuje hranatý vnější tvar se zaoblenými vnitřními křivkami, čímž získává jemný a elegantní vzhled. Centrálně umístěný odpad umožňuje pohodlné ležení pro dvě osoby.",
+    "delivery": "10 dní",
+    "priceFrom": 11275,
+    "image": "../data/images/products/gemini.jpg",
+    "variants": [
+      { "label": "170 × 75 cm", "code": "SAGEM170", "price": 11275 }
+    ]
+  },
+  {
+    "slug": "gemini-xl",
+    "name": "GEMINI XL",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "new": true,
+    "description": "Novinka GEMINI XL přináší větší rozměry oblíbeného modelu GEMINI s hranatým vnějším tvarem a jemně zaoblenými vnitřními křivkami. Dostupná i ve SLIM verzi se sníženým okrajem.",
+    "delivery": "10 dní",
+    "priceFrom": 10758,
+    "image": "../data/images/products/gemini_xl.jpg",
+    "variants": [
+      { "label": "GEMINI XL — od 10 758 Kč", "code": "SAGEM-XL", "price": 10758 },
+      { "label": "GEMINI XL SLIM — od 11 607 Kč", "code": "SAGEM-XL-SL", "price": 11607 }
+    ]
+  },
+  {
+    "slug": "kube",
+    "name": "KUBE",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Geometrie a minimalismus jsou základem vany KUBE. Rovné hrany a prostorný interiér jsou dostupné ve třech délkových variantách, volitelně i ve SLIM provedení se sníženým okrajem 20 mm.",
+    "delivery": "10 dní",
+    "priceFrom": 10135,
+    "image": "../data/images/products/kube.jpg",
+    "variants": [
+      { "label": "160 × 70 cm", "code": "SAKUB160", "price": 10135 },
+      { "label": "170 × 75 cm", "code": "SAKUB170", "price": 10758 },
+      { "label": "180 × 80 cm", "code": "SAKUB180", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "linea-xl",
+    "name": "LINEA XL",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Velkorysá obdélníková vana LINEA XL s rozměry 190 × 90 cm je ideální pro prostorné koupelny a milovníky luxusního koupání. Výjimečný prostor pro pohodlné ležení.",
+    "delivery": "10 dní",
+    "priceFrom": 14778,
+    "image": "../data/images/products/linea_xl.jpg",
+    "variants": [
+      { "label": "190 × 90 cm", "code": "SALIN190", "price": 14778 }
+    ]
+  },
+  {
+    "slug": "linea-xxl",
+    "name": "LINEA XXL",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Monumentální vana LINEA XXL s rozměry 190 × 120 cm nabízí prostor jako žádná jiná. Ideální pro dvě osoby nebo pro ty, kteří nechtějí dělat kompromisy v koupelnovém luxusu.",
+    "delivery": "10 dní",
+    "priceFrom": 25785,
+    "image": "../data/images/products/linea_xxl.jpg",
+    "variants": [
+      { "label": "190 × 120 cm", "code": "SALIN190XXL", "price": 25785 }
+    ]
+  },
+  {
+    "slug": "milo",
+    "name": "MILO",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Organické křivky vany MILO jsou inspirované přírodou. Geometrické vnější kontury v elegantním kontrastu s jemně tvarovaným vnitřním prostorem. Dostupná i ve SLIM verzi.",
+    "delivery": "10 dní",
+    "priceFrom": 10135,
+    "image": "../data/images/products/milo.jpg",
+    "variants": [
+      { "label": "MILO — od 10 135 Kč", "code": "SAMIL", "price": 10135 },
+      { "label": "MILO SLIM — od 10 985 Kč", "code": "SAMIL-SL", "price": 10985 }
+    ]
+  },
+  {
+    "slug": "nova",
+    "name": "NOVA",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Obdélníková vana NOVA s rozměry 170 × 80 cm nabízí vyvážený poměr délky a šířky pro maximální koupelný komfort. Klasický tvar s prémiovou akrylátovou kvalitou.",
+    "delivery": "10 dní",
+    "priceFrom": 11275,
+    "image": "../data/images/products/nova.jpg",
+    "variants": [
+      { "label": "170 × 80 cm", "code": "SANOV170", "price": 11275 }
+    ]
+  },
+  {
+    "slug": "plus",
+    "name": "PLUS",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Velkorysá vana PLUS s rozměrem 185 × 90 cm nabízí výjimečný prostor pro pohodlné ležení. Navržena pro ty, kteří hledají nadstandardní rozměry v klasickém obdélníkovém provedení.",
+    "delivery": "10 dní",
+    "priceFrom": 14121,
+    "image": "../data/images/products/plus.jpg",
+    "variants": [
+      { "label": "185 × 90 cm — od 14 121 Kč", "code": "SAPLUS185", "price": 14121 }
+    ]
+  },
+  {
+    "slug": "rio",
+    "name": "RIO",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Vana RIO nabízí pohodlné jednostranné ležení a poskytuje překvapivě velký prostor pro koupání. S půdorysem 160 × 75 cm zabere v koupelně minimum místa a patří k nejoblíbenějším modelům. Dostupná i jako RIO SLIM.",
+    "delivery": "10 dní",
+    "priceFrom": 10135,
+    "image": "../data/images/products/rio.jpg",
+    "new": false,
+    "variants": [
+      { "label": "160 × 75 cm — RIO", "code": "SARIO160", "price": 10135 },
+      { "label": "160 × 75 cm — RIO SLIM", "code": "SARIO160-SL", "price": 10985 }
+    ]
+  },
+  {
+    "slug": "smart",
+    "name": "SMART",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Vana SMART je ideální pro menší koupelny s omezeným prostorem. Navzdory kompaktním rozměrům nabízí pohodlný vnitřní prostor a prémiovou akrylátovou kvalitu za výhodnou cenu.",
+    "delivery": "10 dní",
+    "priceFrom": 9235,
+    "image": "../data/images/products/smart.jpg",
+    "variants": [
+      { "label": "od 9 235 Kč", "code": "SASMART", "price": 9235 }
+    ]
+  },
+  {
+    "slug": "sofa",
+    "name": "SOFA",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Prémiová obdélníková vana SOFA s rozměry 182 × 85 cm s ergonomickým designem opěrky pro maximální relaxaci. Výjimečný poměr délky a šířky zajišťuje luxusní koupelný zážitek.",
+    "delivery": "10 dní",
+    "priceFrom": 19077,
+    "image": "../data/images/products/sofa.jpg",
+    "variants": [
+      { "label": "182 × 85 cm — od 19 077 Kč", "code": "SASOFA182", "price": 19077 }
+    ]
+  },
+  {
+    "slug": "spring",
+    "name": "SPRING",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Vana SPRING je oblíbenou volbou pro menší koupelny díky příznivé ceně a spolehlivé akrylátové kvalitě. Dostupná v několika délkových variantách včetně modelu 180 × 80 cm.",
+    "delivery": "10 dní",
+    "priceFrom": 8775,
+    "image": "../data/images/products/spring.jpg",
+    "variants": [
+      { "label": "SPRING — od 8 775 Kč", "code": "SASPRI", "price": 8775 },
+      { "label": "SPRING 180 × 80 cm", "code": "SASPRI180", "price": 11839 }
+    ]
+  },
+  {
+    "slug": "time",
+    "name": "TIME",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Obdélníková vana TIME s rozměry 181 × 81,5 cm je navržena pro vyšší osoby, které ocení pohodlné natažení bez vystrkování kolen nad vodu. Dostupná i ve SLIM verzi.",
+    "delivery": "10 dní",
+    "priceFrom": 11839,
+    "image": "../data/images/products/time.jpg",
+    "variants": [
+      { "label": "181 × 81,5 cm — TIME", "code": "SATIM181", "price": 11839 },
+      { "label": "181 × 81,5 cm — TIME SLIM", "code": "SATIM181-SL", "price": 12689 }
+    ]
+  },
+  {
+    "slug": "varia",
+    "name": "VARIA",
+    "category": "obdelnikova",
+    "categoryLabel": "Obdélníková vana",
+    "description": "Minimalistická vana VARIA s možností oboustranného ležení. Symetrický tvar odpovídá moderním trendům a je dostupná v několika velikostech. Dostupná i ve SLIM verzi.",
+    "delivery": "10 dní",
+    "priceFrom": 9849,
+    "image": "../data/images/products/varia.jpg",
+    "variants": [
+      { "label": "VARIA — od 9 849 Kč", "code": "SAVAR", "price": 9849 },
+      { "label": "VARIA SLIM — od 10 698 Kč", "code": "SAVAR-SL", "price": 10698 }
+    ]
+  },
+  {
+    "slug": "one-120",
+    "name": "ONE 120",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Nízká vana ONE s hloubkou pouhých 35 cm umožňuje bezpečný vstup do vany. Ideální pro seniory, děti i osoby s omezenou pohyblivostí. Lze kombinovat se sprchovací zástěnou.",
+    "delivery": "10 dní",
+    "priceFrom": 7662,
+    "image": "../data/images/products/one_120.jpg",
+    "variants": [
+      { "label": "120 × 72,5 cm", "code": "SAONE120", "price": 7662 }
+    ]
+  },
+  {
+    "slug": "one-130",
+    "name": "ONE 130",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Nízká vana ONE 130 s hloubkou 35 cm a délkou 130 cm. Bezpečný a snadno dostupný design vhodný pro celou rodinu. Lze kombinovat se sprchovací zástěnou.",
+    "delivery": "10 dní",
+    "priceFrom": 8033,
+    "image": "../data/images/products/one_130.jpg",
+    "variants": [
+      { "label": "130 × 72,5 cm", "code": "SAONE130", "price": 8033 }
+    ]
+  },
+  {
+    "slug": "one-140",
+    "name": "ONE 140",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Nízká vana ONE 140 s hloubkou 35 cm je oblíbenou volbou pro moderní bezbariérové koupelny. Kombinuje bezpečí s pohodlím a elegantním designem.",
+    "delivery": "10 dní",
+    "priceFrom": 8775,
+    "image": "../data/images/products/one_140.jpg",
+    "variants": [
+      { "label": "140 × 72,5 cm", "code": "SAONE140", "price": 8775 }
+    ]
+  },
+  {
+    "slug": "one-150",
+    "name": "ONE 150",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Nízká vana ONE 150 s hloubkou 35 cm a délkou 150 cm. Optimální délka pro pohodlné koupání s nízkým vstupním prahem. Vhodná pro celou rodinu.",
+    "delivery": "10 dní",
+    "priceFrom": 9516,
+    "image": "../data/images/products/one_150.jpg",
+    "variants": [
+      { "label": "150 × 72,5 cm", "code": "SAONE150", "price": 9516 }
+    ]
+  },
+  {
+    "slug": "one-160",
+    "name": "ONE 160",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Nízká vana ONE 160 s hloubkou 35 cm — nejpopulárnější délka série ONE. Dostatečná délka pro pohodlné natažení s maximálním bezpečím vstupu.",
+    "delivery": "10 dní",
+    "priceFrom": 10156,
+    "image": "../data/images/products/one_160.jpg",
+    "variants": [
+      { "label": "160 × 72,5 cm", "code": "SAONE160", "price": 10156 }
+    ]
+  },
+  {
+    "slug": "one-170",
+    "name": "ONE 170",
+    "category": "one",
+    "categoryLabel": "Nízká vana ONE",
+    "description": "Největší model série ONE — vana ONE 170 s rozměry 170 × 80 cm a hloubkou 35 cm nabízí maximální prostor při zachování nízkého vstupu. Ideální pro vyšší osoby.",
+    "delivery": "10 dní",
+    "priceFrom": 10895,
+    "image": "../data/images/products/one_170.jpg",
+    "variants": [
+      { "label": "170 × 80 cm", "code": "SAONE170", "price": 10895 }
+    ]
+  },
+  {
+    "slug": "evo-sharp",
+    "name": "EVO SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Akrylátová vana EVO SHARP se širokým okrajem pro maximální funkčnost a oboustrannou opěrkou zad. Série SHARP se vyznačuje rovným a ostrým okrajem, který milimetrově přesně navazuje na obkladový plášť.",
+    "delivery": "3 týdny",
+    "priceFrom": 15635,
+    "image": "../data/images/sharp/evo_sharp.jpg",
+    "variants": [
+      { "label": "158 × 78 cm", "code": "SAEVO158-SH", "price": 15635 },
+      { "label": "168 × 78 cm", "code": "SAEVO168-SH", "price": 16257 },
+      { "label": "178 × 78 cm", "code": "SAEVO178-SH", "price": 17339 }
+    ]
+  },
+  {
+    "slug": "gemini-sharp",
+    "name": "GEMINI SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Obdélníková vana GEMINI SHARP s ostrými hranami, které dokonale navazují na obklady nebo lišty. Hranatý vnější tvar s oválným interiérem pro elegantní a moderní koupelnu.",
+    "delivery": "3 týdny",
+    "priceFrom": 16775,
+    "image": "../data/images/sharp/gemini_sharp.jpg",
+    "variants": [
+      { "label": "168 × 73 cm", "code": "SAGEM168-SH", "price": 16775 }
+    ]
+  },
+  {
+    "slug": "gemini-xl-sharp",
+    "name": "GEMINI XL SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Rozměrnější verze oblíbeného modelu GEMINI v provedení SHARP s přesně zarovnanými hranami. Kombinuje prostorný interiér s moderní estetikou série SHARP.",
+    "delivery": "3 týdny",
+    "priceFrom": 16775,
+    "image": "../data/images/sharp/gemini_xl_sharp.jpg",
+    "variants": [
+      { "label": "GEMINI XL SHARP", "code": "SAGEM-XL-SH", "price": 16775 }
+    ]
+  },
+  {
+    "slug": "kube-sharp",
+    "name": "KUBE SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Geometrie a minimalismus v provedení SHARP. Vana KUBE SHARP se štěrbinou kombinuje čistou geometrii s přesně zarovnanými hranami a moderní štěrbinovým odpadem.",
+    "delivery": "3 týdny",
+    "priceFrom": 15635,
+    "image": "../data/images/sharp/kube_sharp.jpg",
+    "variants": [
+      { "label": "158 × 68 cm", "code": "SAKUB158-SH", "price": 15635 },
+      { "label": "168 × 73 cm", "code": "SAKUB168-SH", "price": 16257 },
+      { "label": "178 × 78 cm", "code": "SAKUB178-SH", "price": 17339 }
+    ]
+  },
+  {
+    "slug": "milo-sharp",
+    "name": "MILO SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Geometrické vnější kontury vany MILO SHARP v elegantním kontrastu s jemně tvarovaným vnitřním prostorem. Dostupná ve třech délkových variantách s charakteristickými ostrými hranami série SHARP.",
+    "delivery": "3 týdny",
+    "priceFrom": 15635,
+    "image": "../data/images/sharp/milo_sharp.jpg",
+    "variants": [
+      { "label": "158,5 × 68,5 cm", "code": "SAMIL158-SH", "price": 15635 },
+      { "label": "168,5 × 73,5 cm", "code": "SAMIL168-SH", "price": 16257 },
+      { "label": "178,5 × 78,5 cm", "code": "SAMIL178-SH", "price": 17339 }
+    ]
+  },
+  {
+    "slug": "rio-sharp",
+    "name": "RIO SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Vana RIO SHARP nabízí pohodlné jednostranné ležení s ostrými hranami série SHARP, které milimetrově přesně navazují na obkladový plášť. Oblíbený model v moderním designu.",
+    "delivery": "3 týdny",
+    "priceFrom": 15635,
+    "image": "../data/images/sharp/rio_sharp.jpg",
+    "variants": [
+      { "label": "158 × 73 cm", "code": "SARIO158-SH", "price": 15635 }
+    ]
+  },
+  {
+    "slug": "time-sharp",
+    "name": "TIME SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Vana TIME SHARP je určena pro vyšší osoby s prodlouženou délkou a větší hloubkou. Série SHARP přináší rovné a ostré hrany navazující dokonale na obkladový plášť.",
+    "delivery": "3 týdny",
+    "priceFrom": 17339,
+    "image": "../data/images/sharp/time_sharp.jpg",
+    "variants": [
+      { "label": "179 × 79,5 cm", "code": "SATIM179-SH", "price": 17339 }
+    ]
+  },
+  {
+    "slug": "varia-sharp",
+    "name": "VARIA SHARP",
+    "category": "sharp",
+    "categoryLabel": "Série SHARP",
+    "description": "Minimalistická vana VARIA SHARP s možností oboustranného ležení. Symetrický tvar s charakteristickými ostrými hranami série SHARP dostupný ve třech délkových variantách.",
+    "delivery": "3 týdny",
+    "priceFrom": 15635,
+    "image": "../data/images/sharp/varia_sharp.jpg",
+    "variants": [
+      { "label": "158 × 73 cm", "code": "SAVAR158-SH", "price": 15635 },
+      { "label": "168 × 73 cm", "code": "SAVAR168-SH", "price": 16257 },
+      { "label": "178 × 78 cm", "code": "SAVAR178-SH", "price": 17339 }
+    ]
+  },
+  {
+    "slug": "evo-sharp10",
+    "name": "EVO SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Vana EVO SHARP 10 kombinuje funkční design série EVO s prémiovou povrchovou úpravou SHARP 10. Tloušťka okraje pouhých 10 mm zajišťuje dokonalý soulad s obkladovým pláštěm.",
+    "delivery": "3 týdny",
+    "priceFrom": 17135,
+    "image": "../data/images/sharp10/evo_sharp10.jpg",
+    "variants": [
+      { "label": "158 × 78 cm", "code": "SAEVO158-SH10", "price": 17135 },
+      { "label": "168 × 78 cm", "code": "SAEVO168-SH10", "price": 17757 },
+      { "label": "178 × 78 cm", "code": "SAEVO178-SH10", "price": 18839 }
+    ]
+  },
+  {
+    "slug": "gemini-sharp10",
+    "name": "GEMINI SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Vana GEMINI SHARP 10 s hranatým vnějším tvarem a zaoblenými vnitřními křivkami v prémiové verzi SHARP 10 s tloušťkou okraje 10 mm.",
+    "delivery": "3 týdny",
+    "priceFrom": 18275,
+    "image": "../data/images/sharp10/gemini_sharp10.jpg",
+    "variants": [
+      { "label": "168 × 73 cm", "code": "SAGEM168-SH10", "price": 18275 }
+    ]
+  },
+  {
+    "slug": "gemini-xl-sharp10",
+    "name": "GEMINI XL SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Rozměrnější verze GEMINI v prémiové verzi SHARP 10 s tloušťkou okraje 10 mm. Maximální přesnost napojení na obklady při větším vnitřním prostoru.",
+    "delivery": "3 týdny",
+    "priceFrom": 18275,
+    "image": "../data/images/sharp10/gemini_xl_sharp10.jpg",
+    "variants": [
+      { "label": "GEMINI XL SHARP 10", "code": "SAGEM-XL-SH10", "price": 18275 }
+    ]
+  },
+  {
+    "slug": "kube-sharp10",
+    "name": "KUBE SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Vana KUBE SHARP 10 se štěrbinou — geometrie a minimalismus ve verzi SHARP 10 s 10mm okrajem. Štěrbinový odpad a přesné hrany pro perfektní vizuální soulad s obklady.",
+    "delivery": "3 týdny",
+    "priceFrom": 17135,
+    "image": "../data/images/sharp10/kube_sharp10.jpg",
+    "variants": [
+      { "label": "158 × 68 cm", "code": "SAKUB158-SH10", "price": 17135 },
+      { "label": "168 × 73 cm", "code": "SAKUB168-SH10", "price": 17757 },
+      { "label": "178 × 78 cm", "code": "SAKUB178-SH10", "price": 18839 }
+    ]
+  },
+  {
+    "slug": "milo-sharp10",
+    "name": "MILO SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Geometrické vnější kontury v prémiové verzi SHARP 10. Vana MILO SHARP 10 kombinuje jemně tvarovaný interiér s 10mm okrajem pro dokonalou integraci do obkladového pláště.",
+    "delivery": "3 týdny",
+    "priceFrom": 17135,
+    "image": "../data/images/sharp10/milo_sharp10.jpg",
+    "variants": [
+      { "label": "158,5 × 68,5 cm", "code": "SAMIL158-SH10", "price": 17135 },
+      { "label": "168,5 × 73,5 cm", "code": "SAMIL168-SH10", "price": 17757 },
+      { "label": "178,5 × 78,5 cm", "code": "SAMIL178-SH10", "price": 18839 }
+    ]
+  },
+  {
+    "slug": "rio-sharp10",
+    "name": "RIO SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Oblíbená vana RIO v prémiové verzi SHARP 10 s tloušťkou okraje 10 mm. Pohodlné jednostranné ležení s dokonalým sladěním do obkladového pláště.",
+    "delivery": "3 týdny",
+    "priceFrom": 17135,
+    "image": "../data/images/sharp10/rio_sharp10.jpg",
+    "variants": [
+      { "label": "158 × 73 cm", "code": "SARIO158-SH10", "price": 17135 }
+    ]
+  },
+  {
+    "slug": "time-sharp10",
+    "name": "TIME SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Vana TIME SHARP 10 pro vyšší osoby v prémiové verzi SHARP 10 s tloušťkou okraje 10 mm. Prodloužená délka a větší hloubka s přesným napojením na obklady.",
+    "delivery": "3 týdny",
+    "priceFrom": 18839,
+    "image": "../data/images/sharp10/time_sharp10.jpg",
+    "variants": [
+      { "label": "179 × 79,5 cm", "code": "SATIM179-SH10", "price": 18839 }
+    ]
+  },
+  {
+    "slug": "varia-sharp10",
+    "name": "VARIA SHARP 10",
+    "category": "sharp10",
+    "categoryLabel": "Série SHARP 10",
+    "description": "Minimalistická symetrická vana VARIA SHARP 10 s tloušťkou okraje 10 mm. Oboustranné ležení a dokonalé sladění s moderními obkladovými systémy.",
+    "delivery": "3 týdny",
+    "priceFrom": 17135,
+    "image": "../data/images/sharp10/varia_sharp10.jpg",
+    "variants": [
+      { "label": "158 × 73 cm", "code": "SAVAR158-SH10", "price": 17135 },
+      { "label": "168 × 73 cm", "code": "SAVAR168-SH10", "price": 17757 },
+      { "label": "178 × 78 cm", "code": "SAVAR178-SH10", "price": 18839 }
+    ]
+  }
+]

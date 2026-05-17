@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title id="page-title">Vana — SANTECH</title>
+  <meta name="description" id="page-desc" content="Detail akrylátové vany SANTECH — rozměry, varianty, ceny." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,300;0,400;0,500;0,600;1,300;1,400&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css" />
+  <style>
+    .product-detail {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 4rem;
+      align-items: start;
+      padding: 4rem 0;
+    }
+    @media (max-width: 860px) {
+      .product-detail { grid-template-columns: 1fr; gap: 2rem; }
+    }
+    .product-detail__img {
+      background: linear-gradient(135deg, #f7f4ef, #eee9e0);
+      border-radius: var(--r-lg);
+      padding: 2.5rem;
+      position: sticky;
+      top: calc(var(--nav-h) + 2rem);
+    }
+    .product-detail__img img {
+      width: 100%;
+      object-fit: contain;
+      mix-blend-mode: multiply;
+      max-height: 420px;
+    }
+    .product-detail__cat {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--gold);
+      margin-bottom: 0.5rem;
+    }
+    .product-detail__name {
+      font-family: var(--font-serif);
+      font-size: clamp(2.2rem, 5vw, 3.2rem);
+      font-weight: 400;
+      line-height: 1.15;
+      margin-bottom: 1.5rem;
+    }
+    .product-detail__desc {
+      color: var(--ink-muted);
+      font-size: 0.97rem;
+      line-height: 1.8;
+      margin-bottom: 2rem;
+      border-left: 3px solid var(--gold-light);
+      padding-left: 1.2rem;
+    }
+    .product-detail__variants h4 {
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.1em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      margin-bottom: 1rem;
+    }
+    .variant-table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 2rem;
+    }
+    .variant-table th {
+      text-align: left;
+      font-size: 0.72rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+      padding: 0.5rem 0.75rem;
+      border-bottom: 1px solid var(--cream-dark);
+    }
+    .variant-table td {
+      padding: 0.75rem;
+      font-size: 0.9rem;
+      border-bottom: 1px solid color-mix(in srgb, var(--ink) 6%, transparent);
+      vertical-align: middle;
+    }
+    .variant-table tr:last-child td { border-bottom: none; }
+    .variant-table tr:hover td { background: var(--cream); }
+    .variant-table .td-price {
+      font-family: var(--font-serif);
+      font-size: 1.05rem;
+      color: var(--ink);
+      font-weight: 500;
+      white-space: nowrap;
+    }
+    .variant-table .td-code {
+      font-size: 0.78rem;
+      color: var(--ink-muted);
+      font-family: monospace;
+    }
+    .product-features {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 0.5rem;
+      margin-bottom: 2rem;
+    }
+    .product-features span {
+      padding: 0.3rem 0.85rem;
+      background: var(--cream);
+      border: 1px solid var(--cream-dark);
+      border-radius: 100px;
+      font-size: 0.75rem;
+      font-weight: 500;
+      color: var(--ink-soft);
+    }
+    .product-meta-row {
+      display: flex;
+      gap: 2rem;
+      margin-bottom: 2rem;
+      flex-wrap: wrap;
+    }
+    .product-meta-item {
+      display: flex;
+      flex-direction: column;
+      gap: 0.2rem;
+    }
+    .product-meta-item__label {
+      font-size: 0.7rem;
+      font-weight: 600;
+      letter-spacing: 0.08em;
+      text-transform: uppercase;
+      color: var(--ink-muted);
+    }
+    .product-meta-item__value {
+      font-size: 0.95rem;
+      color: var(--ink);
+      font-weight: 500;
+    }
+    .product-price-from {
+      font-family: var(--font-serif);
+      font-size: 1.8rem;
+      color: var(--ink);
+      margin-bottom: 0.25rem;
+    }
+    .product-detail__actions {
+      display: flex;
+      gap: 1rem;
+      flex-wrap: wrap;
+    }
+    .not-found {
+      text-align: center;
+      padding: 6rem 2rem;
+    }
+    .not-found h1 { font-size: 2rem; margin-bottom: 1rem; }
+  </style>
+</head>
+<body data-page="vana-detail">
+
+  <div id="nav-container"></div>
+
+  <!-- Breadcrumb & header injected by JS -->
+  <div id="product-header"></div>
+
+  <section class="section--cream" style="padding-top: 2rem; padding-bottom: 4rem;">
+    <div class="container">
+      <div id="product-content">
+        <div class="not-found">
+          <p style="color:var(--ink-muted);">Načítání…</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Related / back CTA -->
+  <section class="section--dark" id="cta-section" style="display:none;">
+    <div class="container" style="text-align:center; max-width:700px;">
+      <p class="eyebrow eyebrow--light">Máte zájem?</p>
+      <h2>Kontaktujte nás nebo navštivte prodejce</h2>
+      <p style="margin-bottom:2.5rem; color:rgba(255,255,255,.7);">Rádi vám poradíme s výběrem a instalací. Naše vany si můžete prohlédnout u více než 150 vystavených vzorků u autorizovaných prodejců.</p>
+      <div style="display:flex; gap:1rem; justify-content:center; flex-wrap:wrap;">
+        <a href="../kontakt.html" class="btn btn--primary">Kontaktovat nás</a>
+        <a href="../prodejci.html" class="btn btn--ghost">Kde koupit</a>
+      </div>
+    </div>
+  </section>
+
+  <div id="footer-container"></div>
+
+  <script src="../components.js"></script>
+  <script src="../main.js"></script>
+  <script>
+    (function () {
+      const params = new URLSearchParams(window.location.search);
+      const slug = params.get('slug') || '';
+
+      const categoryPages = {
+        asymetricka: '../vany.html',
+        rohova: '../vany.html',
+        ovalna: '../vany.html',
+        obdelnikova: '../vany.html',
+        one: '../vany.html',
+        sharp: '../serie-sharp.html',
+        sharp10: '../serie-sharp.html'
+      };
+      const categoryNames = {
+        asymetricka: 'Asymetrické vany',
+        rohova: 'Rohové vany',
+        ovalna: 'Oválné vany',
+        obdelnikova: 'Obdélníkové vany',
+        one: 'Nízké vany ONE',
+        sharp: 'Série SHARP',
+        sharp10: 'Série SHARP 10'
+      };
+
+      function fmt(n) {
+        return n.toLocaleString('cs-CZ') + ' Kč';
+      }
+
+      fetch('../data/products_detail.json')
+        .then(r => r.json())
+        .then(products => {
+          const p = products.find(x => x.slug === slug);
+
+          if (!p) {
+            document.getElementById('product-content').innerHTML = `
+              <div class="not-found">
+                <h1>Produkt nenalezen</h1>
+                <p>Vana s identifikátorem „${slug}" nebyla nalezena.</p>
+                <a href="../vany.html" class="btn btn--primary" style="margin-top:1.5rem;">Zpět na katalog van</a>
+              </div>`;
+            return;
+          }
+
+          // Update page title & meta
+          document.getElementById('page-title').textContent = `Vana ${p.name} — SANTECH`;
+          document.getElementById('page-desc').setAttribute('content',
+            `${p.categoryLabel} SANTECH ${p.name}. ${p.description}`);
+
+          // Update body data-page for nav active state
+          document.body.dataset.page = p.category === 'sharp' || p.category === 'sharp10' ? 'serie-sharp' : 'vany';
+
+          // Breadcrumb
+          const catPage = categoryPages[p.category] || '../vany.html';
+          const catName = categoryNames[p.category] || 'Vany';
+          document.getElementById('product-header').innerHTML = `
+            <section class="page-header" style="min-height:200px;">
+              <div class="page-header__overlay"></div>
+              <div class="page-header__content">
+                <nav class="breadcrumb">
+                  <a href="../index.html" class="breadcrumb__link">Domů</a>
+                  <span class="breadcrumb__sep">/</span>
+                  <a href="${catPage}" class="breadcrumb__link">${catName}</a>
+                  <span class="breadcrumb__sep">/</span>
+                  <span class="breadcrumb__current">${p.name}</span>
+                </nav>
+                <h1 class="page-header__title">${p.name}</h1>
+                <p class="page-header__sub">${p.categoryLabel}</p>
+              </div>
+            </section>`;
+
+          // Variants table rows
+          const rows = p.variants.map(v => `
+            <tr>
+              <td>${v.label}</td>
+              <td class="td-code">${v.code}</td>
+              <td class="td-price">${fmt(v.price)}</td>
+            </tr>`).join('');
+
+          // Build standard features list
+          const features = [
+            'Litý akrylát PMMA',
+            '10letá záruka',
+            'Životnost min. 20 let',
+            'Antibakteriální povrch',
+            'Česká výroba'
+          ];
+
+          document.getElementById('product-content').innerHTML = `
+            <div class="product-detail">
+              <div class="product-detail__img">
+                <img src="${p.image}" alt="Vana ${p.name}" />
+              </div>
+              <div class="product-detail__info">
+                <p class="product-detail__cat">${p.categoryLabel}</p>
+                <h1 class="product-detail__name">${p.name}</h1>
+                <p class="product-detail__desc">${p.description}</p>
+
+                <div class="product-features">
+                  ${features.map(f => `<span>${f}</span>`).join('')}
+                </div>
+
+                <div class="product-meta-row">
+                  <div class="product-meta-item">
+                    <span class="product-meta-item__label">Cena od</span>
+                    <span class="product-price-from">${fmt(p.priceFrom)}</span>
+                  </div>
+                  <div class="product-meta-item">
+                    <span class="product-meta-item__label">Dodací lhůta</span>
+                    <span class="product-meta-item__value">${p.delivery}</span>
+                  </div>
+                  <div class="product-meta-item">
+                    <span class="product-meta-item__label">Záruka</span>
+                    <span class="product-meta-item__value">10 let</span>
+                  </div>
+                </div>
+
+                <div class="product-detail__variants">
+                  <h4>Dostupné varianty</h4>
+                  <table class="variant-table">
+                    <thead>
+                      <tr>
+                        <th>Rozměr / varianta</th>
+                        <th>Kód</th>
+                        <th>Cena s DPH</th>
+                      </tr>
+                    </thead>
+                    <tbody>${rows}</tbody>
+                  </table>
+                </div>
+
+                <div class="product-detail__actions">
+                  <a href="../kontakt.html" class="btn btn--primary">Nezávazná poptávka</a>
+                  <a href="${catPage}" class="btn btn--ghost">← Zpět na ${catName}</a>
+                </div>
+              </div>
+            </div>`;
+
+          document.getElementById('cta-section').style.display = '';
+
+          // Re-run nav active state update after data-page change
+          if (typeof initNav === 'function') initNav();
+        })
+        .catch(() => {
+          document.getElementById('product-content').innerHTML = `
+            <div class="not-found">
+              <h1>Chyba načítání</h1>
+              <p>Nepodařilo se načíst data produktu.</p>
+              <a href="../vany.html" class="btn btn--primary" style="margin-top:1.5rem;">Zpět na katalog</a>
+            </div>`;
+        });
+    })();
+  </script>
+</body>
+</html>

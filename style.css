@@ -385,6 +385,10 @@ em { font-style: italic; color: var(--gold-dark); }
   overflow: hidden;
   box-shadow: 0 2px 16px rgba(0,0,0,0.06);
   transition: var(--trans);
+  text-decoration: none;
+  color: inherit;
+  display: block;
+  cursor: pointer;
 }
 .pcard:hover {
   transform: translateY(-4px);
@@ -507,6 +511,8 @@ em { font-style: italic; color: var(--gold-dark); }
   border-bottom: 1px solid color-mix(in srgb, var(--ink) 8%, transparent);
 }
 .showcase:last-child { border-bottom: none; }
+/* When inside showcase-list rows, spacing is handled by the row */
+.showcase-row .showcase { padding: 0; border-bottom: none; }
 .showcase--reverse { direction: rtl; }
 .showcase--reverse > * { direction: ltr; }
 .showcase__img {
@@ -721,6 +727,17 @@ em { font-style: italic; color: var(--gold-dark); }
   background: var(--cream-dark);
   padding: clamp(5rem, 10vw, 9rem) 0;
 }
+
+/* Tight showcase variant — alternating bg rows within one section */
+.showcase-list {
+  background: var(--white);
+}
+.showcase-list .showcase-row {
+  padding: clamp(3rem, 6vw, 5rem) clamp(1.5rem, 5vw, 5rem);
+  border-bottom: 1px solid color-mix(in srgb, var(--ink) 7%, transparent);
+}
+.showcase-list .showcase-row:last-child { border-bottom: none; }
+.showcase-list .showcase-row:nth-child(even) { background: var(--cream); }
 
 /* ── FOOTER TEXT (for non-link items) ────────────────────── */
 .footer__text {
