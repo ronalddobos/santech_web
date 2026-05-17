@@ -110,12 +110,19 @@
     }
 
     /* ── MAP ───────────────────────────────────────────────── */
+    .map-container {
+      position: relative;
+      height: 100%;
+    }
     #dealer-map {
+      width: 100%;
+      height: 100%;
       z-index: 0;
       background: #e8e0d5;
     }
     @media (max-width: 860px) {
-      #dealer-map { height: 380px; }
+      .map-container { height: 420px; }
+      #dealer-map { height: 420px; }
     }
 
     /* ── DETAIL PANEL ──────────────────────────────────────── */
@@ -208,9 +215,6 @@
     .map-section {
       background: var(--cream-dark);
       padding: 0;
-    }
-    .map-container {
-      position: relative;
     }
 
     /* Custom Leaflet marker */
@@ -347,6 +351,7 @@
   <div id="footer-container"></div>
 
   <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js" integrity="sha256-20nQCchB9co0qIjJZRGuk2/Z9VM+kNiyxNV/XN/WLs=" crossorigin=""></script>
+  <script src="data/dealers-data.js"></script>
   <script src="components.js"></script>
   <script src="main.js"></script>
   <script>
@@ -550,30 +555,29 @@
     }
 
     // ── BOOTSTRAP ─────────────────────────────────────────
-    fetch('data/dealers.json')
-      .then(r => r.json())
-      .then(data => {
-        allDealers = data;
-        filteredDealers = data;
-        initMap();
-        populateFilters(data);
-        renderList(data);
-        renderMarkers(data);
+    (function boot() {
+      const data = DEALERS_DATA;
+      allDealers = data;
+      filteredDealers = data;
+      initMap();
+      populateFilters(data);
+      renderList(data);
+      renderMarkers(data);
 
-        document.getElementById('filter-region').addEventListener('change', () => {
-          document.getElementById('filter-city').value = '';
-          applyFilters();
-        });
-        document.getElementById('filter-city').addEventListener('change', applyFilters);
-        document.getElementById('filter-search').addEventListener('input', applyFilters);
-
-        document.getElementById('panel-close').addEventListener('click', () => {
-          document.getElementById('detail-panel').classList.remove('open');
-          activeMarkerId = null;
-          markersLayer.eachLayer(m => m.setIcon(markerIcon(false)));
-          document.querySelectorAll('.dealer-card').forEach(c => c.classList.remove('active'));
-        });
+      document.getElementById('filter-region').addEventListener('change', () => {
+        document.getElementById('filter-city').value = '';
+        applyFilters();
       });
+      document.getElementById('filter-city').addEventListener('change', applyFilters);
+      document.getElementById('filter-search').addEventListener('input', applyFilters);
+
+      document.getElementById('panel-close').addEventListener('click', () => {
+        document.getElementById('detail-panel').classList.remove('open');
+        activeMarkerId = null;
+        markersLayer.eachLayer(m => m.setIcon(markerIcon(false)));
+        document.querySelectorAll('.dealer-card').forEach(c => c.classList.remove('active'));
+      });
+    })();
   })();
   </script>
 </body>
